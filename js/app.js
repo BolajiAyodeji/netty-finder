@@ -1,5 +1,7 @@
-//Recives user input
-var userInput = prompt("Enter the 🇳🇬 Telephone number without (+234) 😊");
+setTimeout(function(){
+ //Recives user input
+var userInput = prompt("Enter the 🇳🇬 Telephone number without (+234) 😊");   
+},750);
 
 //Converts number to GSM acceptable codes
 var checkNumber = userInput.slice(0, 4);
