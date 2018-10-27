@@ -83,4 +83,4 @@ setTimeout(function () {
     else {
         alert(iInput + " belongs to no Nigerian network, check the number and TRY AGAIN!!")
     }
-}, 750);
+}, 1800);
