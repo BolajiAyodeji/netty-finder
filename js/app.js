@@ -62,22 +62,25 @@ setTimeout(function () {
 
 
     //Validates number and detects network
-    if (checkValid !== ('0')) {
+    if (userInput.length !== 11) {
+        alert("Invalid number, TRY AGAIN!!")
+    }
+    else if (checkValid !== ('0')) {
         alert("Invalid number, number must start with '0', TRY AGAIN!!");
     }
     else if (checkNumber === m1.GSM || checkNumber === m2.GSM || checkNumber === m3.GSM || checkNumber === m4.GSM || checkNumber === m5.GSM || checkNumber === m6.GSM || checkNumber === m7.GSM || checkNumber === m8.GSM || checkNumber === m9.GSM) {
-        alert(iInput + " belongs to MTN network")
+        alert(iInput + " belongs to MTN network 💛")
     }
     else if (checkNumber === g1.GSM || checkNumber === g2.GSM || checkNumber === g3.GSM || checkNumber === g4.GSM || checkNumber === g5.GSM || checkNumber === g6.GSM || checkNumber === g7.GSM) {
-        alert(iInput + " belongs to GLO network");
+        alert(iInput + " belongs to GLO network 💚");
     }
     else if (checkNumber === n1.GSM || checkNumber === n2.GSM || checkNumber === n3.GSM || checkNumber === n4.GSM) {
-        alert(iInput + " belongs to 9MOBILE network");
+        alert(iInput + " belongs to 9MOBILE network 💚");
     }
     else if (checkNumber === a1.GSM || checkNumber === a2.GSM || checkNumber === a3.GSM || checkNumber === a4.GSM || checkNumber === a5.GSM || checkNumber === a6.GSM) {
-        alert(iInput + " belongs to AIRTEL network");
+        alert(iInput + " belongs to AIRTEL network ❤️");
     }
     else {
-        alert(iInput + "Belongs to no Nigerian network")
+        alert(iInput + " belongs to no Nigerian network, check the number and TRY AGAIN!!")
     }
 }, 750);
