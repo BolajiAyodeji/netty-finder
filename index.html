@@ -54,11 +54,6 @@
         <hr class="my-4">
     </div>
     <div class="container">
-        <div class="row">
-            <div class="alert alert-danger text-center" role="alert">
-                Press F5 or Refresh this page to Get Started 😎
-            </div>
-        </div>
 
         <div class="row">
             <div class="alert alert-danger text-center" role="alert">
@@ -68,26 +63,55 @@
 
         <div class="row">
             <div class="alert alert-danger text-center" role="alert">
-                Number must be 11 digits and not less than. 🔥
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="alert alert-danger text-center" role="alert">
-                Press F5 or Refresh this page to try another number 😎
+                Number must be 11 digits and not less than or greather than. 🔥
             </div>
         </div>
     </div>
-
+    <br />
     <div class="container">
-        <a href="https://twitter.com/intent/tweet?screen_name=iambolajiayo&ref_src=twsrc%5Etfw" class="twitter-mention-button"
-            data-size="large" data-text="Hello there! I tried out #NettyFinder and it got my network right. Some cool app you got there, well done!"
-            data-related="iambolajiayo" data-show-count="false">Tweet to @iambolajiayo</a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <div class="row">
 
-        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fbolajiayodeji.github.io%2Fnetty-finder%2F&layout=button_count&size=large&mobile_iframe=true&appId=1638690196224226&width=84&height=28"
-            width="84" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
-            allow="encrypted-media"></iframe>
+            <form>
+
+                <div class="form-group">
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-lg">Enter Telephone number</span>
+                        </div>
+                        <input type="text" name="telephone" class="form-control" placeholder="e.g 08109445504"
+                            aria-describedby="inputGroup-sizing-lg">
+                    </div>
+                </div>
+
+                <br />
+
+                <button type="button" class="btn btn-primary btn-lg" onclick="compute(form)">Submit</button>
+                <button type="reset" class="btn btn-secondary btn-lg">Clear</button>
+                <br /><br />
+
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text btn-primary" id="basic-addon1">NettyFinder Result</span>
+                    </div>
+                    <input id="result" type="text" name="nettyResult" class="form-control" aria-describedby="basic-addon1"
+                        readonly>
+                </div>
+            </form>
+
+            <div class="container">
+                <div class="row">
+                    <a href="https://twitter.com/intent/tweet?screen_name=iambolajiayo&ref_src=twsrc%5Etfw" class="twitter-mention-button"
+                        data-size="large" data-text="Hello there! I tried out #NettyFinder and it got the network of my Nigerian Telephone number right. Some cool app you got there, well done!"
+                        data-related="iambolajiayo" data-show-count="false">Tweet to @iambolajiayo</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    &nbsp;&nbsp;
+                    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fbolajiayodeji.github.io%2Fnetty-finder%2F&layout=button_count&size=large&mobile_iframe=true&appId=1638690196224226&width=84&height=28"
+                        width="90" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                        allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer>
