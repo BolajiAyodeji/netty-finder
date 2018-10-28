@@ -13,6 +13,15 @@ body {
     width: 2%;
 }
 
+.btn-primary {
+    background-color: #025f18;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #ffc107;
+}
+
 footer {
     padding-top: 25px;
 }
