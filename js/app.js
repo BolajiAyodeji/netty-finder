@@ -1,22 +1,22 @@
 function compute(form) {
 
-    let userInput = parseInt(form.telephone.value);
-    let userInput = Number(userInput);
+    var userInput = parseInt(form.telephone.value);
+    var userInput = Number(userInput);
 
     //Converts number to GSM acceptable Prefixes
-    let checkNumber = userInput.toString().slice(0, 3);
-    let checkNumber = 0 + checkNumber;
+    var checkNumber = userInput.toString().slice(0, 3);
+    var checkNumber = 0 + checkNumber;
 
-    let checkNumber2 = userInput.toString().slice(0, 4);
-    let checkNumber2 = 0 + checkNumber2;
+    var checkNumber2 = userInput.toString().slice(0, 4);
+    var checkNumber2 = 0 + checkNumber2;
 
     //Checks validity of number, (must start with 0)
-    let checkValid = userInput.toString().slice(0);
-    let checkValid = 0 + checkValid;
+    var checkValid = userInput.toString().slice(0);
+    var checkValid = 0 + checkValid;
 
     //Stores initial number
-    let iInput = userInput.toString().slice(0);
-    let iInput = 0 + iInput;
+    var iInput = userInput.toString().slice(0);
+    var iInput = 0 + iInput;
 
     //Returns output of the converter
     function validate(checker1) {
@@ -28,72 +28,72 @@ function compute(form) {
     }
 
     //Prepares input result
-    const myResult = validate(userInput);
-    const myResult2 = validate(userInput);
+    var myResult = validate(userInput);
+    var myResult2 = validate(userInput);
 
 
     //Stores GSM Prefixes
-    const gPrefixes = function (GSM) {
+    var gPrefixes = function (GSM) {
         this.GSM = GSM;
     }
 
     //MTN GSM Prefixes
-    const m1 = new gPrefixes('0806');
-    const m2 = new gPrefixes('0803');
-    const m3 = new gPrefixes('0816');
-    const m4 = new gPrefixes('0813');
-    const m5 = new gPrefixes('0810');
-    const m6 = new gPrefixes('0814');
-    const m7 = new gPrefixes('0903');
-    const m8 = new gPrefixes('0703');
-    const m9 = new gPrefixes('0706');
+    var m1 = new gPrefixes('0806');
+    var m2 = new gPrefixes('0803');
+    var m3 = new gPrefixes('0816');
+    var m4 = new gPrefixes('0813');
+    var m5 = new gPrefixes('0810');
+    var m6 = new gPrefixes('0814');
+    var m7 = new gPrefixes('0903');
+    var m8 = new gPrefixes('0703');
+    var m9 = new gPrefixes('0706');
 
     //GLO GSM Prefixes
-    const g1 = new gPrefixes('0805');
-    const g2 = new gPrefixes('0705');
-    const g3 = new gPrefixes('0905');
-    const g4 = new gPrefixes('0807');
-    const g5 = new gPrefixes('0815');
-    const g6 = new gPrefixes('0811');
+    var g1 = new gPrefixes('0805');
+    var g2 = new gPrefixes('0705');
+    var g3 = new gPrefixes('0905');
+    var g4 = new gPrefixes('0807');
+    var g5 = new gPrefixes('0815');
+    var g6 = new gPrefixes('0811');
 
     //9MOBILE GSM Prefixes
-    const n1 = new gPrefixes('0809');
-    const n2 = new gPrefixes('0909');
-    const n3 = new gPrefixes('0817');
-    const n4 = new gPrefixes('0818');
-    const n5 = new gPrefixes('0908');
+    var n1 = new gPrefixes('0809');
+    var n2 = new gPrefixes('0909');
+    var n3 = new gPrefixes('0817');
+    var n4 = new gPrefixes('0818');
+    var n5 = new gPrefixes('0908');
 
     //AIRTEL GSM Prefixes
-    const a1 = new gPrefixes('0802');
-    const a2 = new gPrefixes('0902');
-    const a3 = new gPrefixes('0701');
-    const a4 = new gPrefixes('0808');
-    const a5 = new gPrefixes('0708');
-    const a6 = new gPrefixes('0812');
-    const a7 = new gPrefixes('0907');
+    var a1 = new gPrefixes('0802');
+    var a2 = new gPrefixes('0902');
+    var a3 = new gPrefixes('0701');
+    var a4 = new gPrefixes('0808');
+    var a5 = new gPrefixes('0708');
+    var a6 = new gPrefixes('0812');
+    var a7 = new gPrefixes('0907');
 
     //STARCOMMS GSM Prefixes
-    const s1 = new gPrefixes('07028');
-    const s2 = new gPrefixes('07029');
-    const s3 = new gPrefixes('0819');
+    var s1 = new gPrefixes('07028');
+    var s2 = new gPrefixes('07029');
+    var s3 = new gPrefixes('0819');
 
     //VISAFONE GSM Prefixes
-    const v1 = new gPrefixes('07025');
-    const v2 = new gPrefixes('07026');
-    const v3 = new gPrefixes('0704');
+    var v1 = new gPrefixes('07025');
+    var v2 = new gPrefixes('07026');
+    var v3 = new gPrefixes('0704');
 
     //MULTILINKS GSM Prefixes
-    const mu1 = new gPrefixes('07027');
-    const mu2 = new gPrefixes('0709');
+    var mu1 = new gPrefixes('07027');
+    var mu2 = new gPrefixes('0709');
 
     //ZOOM GSM Prefix
-    const z1 = new gPrefixes('0707')
+    var z1 = new gPrefixes('0707')
 
     //NTEL GSM Prefix
-    const nt1 = new gPrefixes('0804')
+    var nt1 = new gPrefixes('0804')
 
     //SMILE GSM Prefix
-    const sm1 = new gPrefixes('0702')
+    var sm1 = new gPrefixes('0702')
 
 
     //Validates number and detects network
