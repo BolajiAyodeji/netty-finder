@@ -1,12 +1,77 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 body {
     margin: 0;
-    min-width: 250px;
     font-family: 'Poppins', sans-serif;
 }
 
 * {
     box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    height: 300px;
+    background: linear-gradient(to right, #2dce89, #11cdef);
+}
+
+h1 {
+    padding: 100px 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+@media (max-width: 699px) {
+    .svg--lg {
+        display: none;
+    }
+}
+
+.ml1 {
+    font-weight: 200;
+    font-size: 1.1em;
+}
+
+.ml1 .letter {
+    display: inline-block;
+    line-height: 1.0em;
+    padding: 10px 0 10px 0;
+}
+
+.ml1 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 0 0;
+}
+
+.ml1 .line1 {
+    top: 0;
+}
+
+.ml1 .line2 {
+    bottom: 0;
 }
 
 .flag {
@@ -22,6 +87,84 @@ body {
     background-color: #ffc107;
 }
 
+#userInput {
+    background: #2dce89;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2dce89, #11cdef);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#userInput .section-title h2 {
+    color: #fff;
+}
+
+.shareButton {
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.shareButton iframe {
+    border: 0;
+}
+
+#userInput .form-control {
+    border: 0;
+    border-radius: 8px;
+    box-shadow: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+#userInput .form-control:focus {
+    box-shadow: 0 0 0 3.0px #e9ecef;
+}
+
+#userInput input, #userInput select {
+    height: 60px;
+}
+
+#userInput select {
+    color: rgba(20, 20, 20, 0.5);
+}
+
+#userInput button[type='button'] {
+    background: transparent;
+    box-shadow: inset 0 0 0 2px #e9ecef;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    color: #000;
+    font-weight: 500;
+}
+
+#userInput button[type='button']:hover {
+    box-shadow: inset 0 0 0 2px #e9ecef;
+    background: #11cdef;
+    color: #000;
+}
+
+#userInput button[type='reset'] {
+    background: transparent;
+    box-shadow: inset 0 0 0 2px #e9ecef;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    color: #000;
+    font-weight: 500;
+}
+
+#userInput button[type='reset']:hover {
+    box-shadow: inset 0 0 0 2px #e9ecef;
+    background:#11cdef;
+    color: #000;
+}
+
 footer {
-    padding-top: 25px;
+    padding-top: 0;
 }
