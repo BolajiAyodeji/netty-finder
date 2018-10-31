@@ -6,6 +6,19 @@ body {
 
 * {
     box-sizing: border-box;
+    border: 1px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -37,9 +50,14 @@ svg {
     }
 }
 
+.container {
+    margin: 0;
+    width: 100%
+}
+
 .ml1 {
     font-weight: 200;
-    font-size: 1.1em;
+    font-size: 0.9em;
 }
 
 .ml1 .letter {
@@ -103,7 +121,7 @@ svg {
 .shareButton {
     overflow: hidden;
     margin: 0 auto;
-    padding-top: 75px;
+    padding-top: 10px;
 }
 
 .shareButton iframe {
@@ -125,7 +143,8 @@ svg {
     box-shadow: 0 0 0 3.0px #e9ecef;
 }
 
-#userInput input, #userInput select {
+#userInput input,
+#userInput select {
     height: 60px;
 }
 
@@ -161,10 +180,89 @@ svg {
 
 #userInput button[type='reset']:hover {
     box-shadow: inset 0 0 0 2px #e9ecef;
-    background:#11cdef;
+    background: #11cdef;
     color: #000;
 }
 
 footer {
-    padding-top: 0;
+    background: #000;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer h3 {
+    color: #fff;
+}
+
+.footer-link {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link li {
+    display: block;
+    list-style: none;
+    margin: 5px 10px 5px 0;
+}
+
+footer p,
+footer span,
+.footer-link li a {
+    color: #fff;
+}
+
+.footer-link li a:hover {
+    color: #2dce89;
+}
+
+.copyright-text p,
+.footer-bottom .phone-contact p {
+    font-size: 14px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 5em;
+    padding-top: 3em;
+}
+
+.footer-bottom .phone-contact,
+.footer-bottom .social-icon {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-bottom .phone-contact span {
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    border-radius: 100px;
+    color: #d9d9d9;
+    font-size: 15px;
+    text-decoration: none;
+    position: relative;
+    margin: 5px 10px;
+}
+
+.social-icon li a:hover {
+    color: #2dce89;
 }
