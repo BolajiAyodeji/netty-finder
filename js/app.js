@@ -1,22 +1,22 @@
 function compute(form) {
 
     let userInput = parseInt(form.telephone.value);
-    let userInput = Number(userInput);
+     userInput = Number(userInput);
 
     //Converts number to GSM acceptable Prefixes
     let checkNumber = userInput.toString().slice(0, 3);
-    let checkNumber = 0 + checkNumber;
+    checkNumber = 0 + checkNumber;
 
     let checkNumber2 = userInput.toString().slice(0, 4);
-    let checkNumber2 = 0 + checkNumber2;
+    checkNumber2 = 0 + checkNumber2;
 
     //Checks validity of number, (must start with 0)
     let checkValid = userInput.toString().slice(0);
-    let checkValid = 0 + checkValid;
+    checkValid = 0 + checkValid;
 
     //Stores initial number
     let iInput = userInput.toString().slice(0);
-    let iInput = 0 + iInput;
+     iInput = 0 + iInput;
 
     //Returns output of the converter
     function validate(checker1) {
