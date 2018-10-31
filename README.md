@@ -6,7 +6,7 @@
 
 This script checks a Nigerian Telephone number and detects which network it belongs to. <br>
 
-Demo [Here](https://bolajiayodeji.github.io/netty-finder)
+Demo [Here](https://netty-finder.herokuapp.com)
 
 
 
