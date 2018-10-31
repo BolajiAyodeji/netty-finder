@@ -36,8 +36,7 @@
             } 
 		</script>
     <!--Bootstrap CDN-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--Main Stylesheet-->
     <link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
     <!--logo-->
@@ -45,87 +44,106 @@
 </head>
 
 <body>
-    <div class="jumbotron">
-        <h1 class="display-4">NettyFinder 🚀</h1>
-        <p class="lead">This script checks a Nigerian <img src="https://cdn3.iconfinder.com/data/icons/world-flags-square-vol-2/48/Nigeria-512.png"
-                class="flag" alt="Nigeria Flag">
-            Telephone number and detects which network it belongs to.</p>
+    <header>
+        <h1>NettyFinder 🚀</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon class="svg--sm" fill="white" points="0,0 30,100 65,21 90,100 100,75 100,100 0,100" />
+            <polygon class="svg--lg" fill="white" points="0,0 15,100 33,21 45,100 50,75 55,100 72,20 85,100 95,50 100,80 100,100 0,100" />
+        </svg>
+    </header>
 
-        <hr class="my-4">
-    </div>
-    <div class="container">
+    <div class="col-md-12 col-sm-12">
+        <div class="container">
+            
+            <h1 class="ml1">
+                            <span class="text-wrapper">
+                              <span class="line line1"></span>
+                              <span class="letters">
+                                    This script checks a Nigerian <img src="https://cdn3.iconfinder.com/data/icons/world-flags-square-vol-2/48/Nigeria-512.png"
+                                    class="flag" alt="Nigeria Flag">
+                                Telephone number and detects which network it belongs to.
+                              </span>
+                              <span class="line line2"></span>
+                            </span>
+                          </h1>
+                          </div>
+                          </div>
+    <hr />
 
-        <div class="row">
-            <div class="alert alert-danger text-center" role="alert">
-                Enter number without (+234), e.g 08109445504 🔥
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="alert alert-danger text-center" role="alert">
-                Number must be 11 digits and not less than or greather than. 🔥
-            </div>
-        </div>
-    </div>
-    <br />
-    <div class="container">
-        <div class="row">
-
-            <form>
-
-                <div class="form-group">
-                    <div class="input-group input-group-lg">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroup-sizing-lg">Enter Telephone number</span>
+    <section id="userInput">
+        <div class="container">
+            <div class="row">
+<br /><br />
+                    <div class="col-md-6">
+                            <div class="alert alert-danger text-center" role="alert">
+                                Enter number without (+234), e.g 08109445504
+                            </div>
                         </div>
-                        <input type="text" name="telephone" class="form-control" placeholder="e.g 08109445504"
-                            aria-describedby="inputGroup-sizing-lg">
-                    </div>
+                    
+                        <div class="col-md-6">
+                            <div class="alert alert-danger text-center" role="alert">
+                                Number must be 11 digits and not less than or greather than
+                            </div>
+                        </div>
+
+                <div class="col-md-6 col-sm-6">
+
+                    <!-- NettyFinder Form -->
+                    <form>
+                        <br /><br /><br />
+                        <div class="form-group">
+                            <div class="col-md-12 col-sm-12">
+                                <input type="text" name="telephone" class="form-control" placeholder="Enter Telephone number"
+                                    id="cf-name">
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <button type="button" class="form-control" onclick="compute(form)">Submit</button>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <button type="reset" class="form-control" name="reset">Clear</button>
+                            </div>
+
+                            <div class="col-md-12 col-sm-12">
+                                <input id="result" type="text" name="nettyResult" class="form-control" placeholder="NettyFinder Result"
+                                    readonly>
+                            </div>
+                        </div>
+                    </form>
                 </div>
 
-                <br />
+                <!-- Share Buttons-->
 
-                <button type="button" class="btn btn-primary btn-lg" onclick="compute(form)">Submit</button>
-                <button type="reset" class="btn btn-secondary btn-lg">Clear</button>
-                <br /><br />
-
-
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text btn-primary" id="basic-addon1">NettyFinder Result</span>
+                <div class="col-md-6 col-sm-6">
+                    <div class="container">
+                    <div class="shareButton">
+                        <a href="https://twitter.com/intent/tweet?&ref_src=twsrc%5Etfw" class="twitter-mention-button"
+                            data-size="large" data-text="Hello there! I just tried out #NettyFinder and it got the network of my Nigerian Telephone number right. Some cool app developed by @iambolajiayo, check it out https://bolajiayodeji.github.io/netty-finder/"
+                            data-show-count="false">Tweet to @iambolajiayo</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        &nbsp;&nbsp;
+                        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fbolajiayodeji.github.io%2Fnetty-finder%2F&layout=button_count&size=large&mobile_iframe=true&appId=1638690196224226&width=84&height=28"
+                            width="90" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowTransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <input id="result" type="text" name="nettyResult" class="form-control" aria-describedby="basic-addon1"
-                        readonly>
-                </div>
-            </form>
-
-            <div class="container">
-                <div class="row">
-                    <a href="https://twitter.com/intent/tweet?&ref_src=twsrc%5Etfw" class="twitter-mention-button"
-                        data-size="large" data-text="Hello there! I just tried out #NettyFinder and it got the network of my Nigerian Telephone number right. Some cool app developed by @iambolajiayo, check it out https://bolajiayodeji.github.io/netty-finder/"
-                        data-show-count="false">Tweet to @iambolajiayo</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    &nbsp;&nbsp;
-                    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fbolajiayodeji.github.io%2Fnetty-finder%2F&layout=button_count&size=large&mobile_iframe=true&appId=1638690196224226&width=84&height=28"
-                        width="90" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                        allowTransparency="true" allow="encrypted-media"></iframe>
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+    </section>
 
     <footer>
-        <div class="alert" style="background-color:#ddd;" role="alert">
+        <div style="background-color:#ddd;" role="alert">
             <hr>
-            <p class="mb-0 text-center">Developed by; <a href="https://bolajiayodeji.github.io" target="_blank">Bolaji
+            <p class="text-center">Developed by; <a href="https://bolajiayodeji.github.io" target="_blank">Bolaji
                     Ayodeji</a></p>
             <p class="mb-0 text-center">Source code: <a href="https://github.com/BolajiAyodeji/netty-finder" target="_blank">Github</a>
                 || <a href="https://codepen.io/iambolajiayo/pen/xyBVGx" target="_blank">Codepen</a></p>
         </div>
     </footer>
 
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="js/app.js"></script>
-
 </body>
 
 </html>
