@@ -25,8 +25,8 @@ Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 
 # Android Version
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android1.jpg" width="350" alt="Android Version">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android2.jpg" width="350" alt="Android Version">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android1.png" width="350" alt="Android Version">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android2.png" width="350" alt="Android Version">
 </p>
 
 
