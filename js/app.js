@@ -1,9 +1,9 @@
-(function($) {
+(function ($) {
 
     "use strict";
 
     // WRAP INTRO TEXT
-    $('.ml1 .letters').each(function() {
+    $('.ml1 .letters').each(function () {
         $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
     });
 
@@ -17,7 +17,7 @@
             translateZ: 0,
             easing: "easeOutExpo",
             duration: 100,
-            delay: function(el, i) {
+            delay: function (el, i) {
                 return 70 * (i + 1)
             }
         }).add({
@@ -27,7 +27,7 @@
             easing: "easeOutExpo",
             duration: 900,
             offset: '-=875',
-            delay: function(el, i, l) {
+            delay: function (el, i, l) {
                 return 80 * (l - i);
             }
         }).add({
@@ -77,7 +77,7 @@ function compute(form) {
 
 
     //Stores GSM Prefixes
-    var gPrefixes = function(GSM) {
+    var gPrefixes = function (GSM) {
         this.GSM = GSM;
     }
 
@@ -141,8 +141,10 @@ function compute(form) {
 
 
     //Validates number and detects network
-    if (checkValid.length < 11 || checkValid.lenght > 11) {
-        alert("Error! Invalid number. Number must not be lesser or greater than 11")
+    if (checkValid.length < 11) {
+        alert("🚫 Error! Invalid number. Number must not be lesser than 11 digits")
+    } else if (checkValid.length > 11) {
+        alert("🚫 Error! Invalid number. Number must not be greater than 11 digits")
     } else if (checkNumber === m1.GSM || checkNumber === m2.GSM || checkNumber === m3.GSM || checkNumber === m4.GSM || checkNumber === m5.GSM || checkNumber === m6.GSM || checkNumber === m7.GSM || checkNumber === m8.GSM || checkNumber === m9.GSM) {
         form.nettyResult.value = iInput + " belongs to MTN network 💛"
     } else if (checkNumber === g1.GSM || checkNumber === g2.GSM || checkNumber === g3.GSM || checkNumber === g4.GSM || checkNumber === g5.GSM || checkNumber === g6.GSM) {
@@ -166,7 +168,7 @@ function compute(form) {
     } else if (checkNumber === sm1.GSM) {
         form.nettyResult.value = iInput + " belongs to SMILE network 💛️"
     } else {
-        alert(iInput + " belongs to no Nigerian network, check the number and TRY AGAIN!!")
+        alert("🚫 " + iInput + " belongs to no Nigerian network, check the number and TRY AGAIN!!")
     }
 }
 

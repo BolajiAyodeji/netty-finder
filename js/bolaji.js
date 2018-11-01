@@ -97,44 +97,34 @@ function compute(form) {
 
 
     //Validates number and detects network
-    if (checkValid.length < 11 || checkValid.lenght > 11) {
-        alert("Error! Invalid number. Number must not be lesser or greater than 11")
-    }
-    else if (checkNumber === m1.GSM || checkNumber === m2.GSM || checkNumber === m3.GSM || checkNumber === m4.GSM || checkNumber === m5.GSM || checkNumber === m6.GSM || checkNumber === m7.GSM || checkNumber === m8.GSM || checkNumber === m9.GSM) {
+    if (checkValid.length < 11) {
+        alert("🚫 Error! Invalid number. Number must not be lesser than 11 digits")
+    } else if (checkValid.length > 11) {
+        alert("🚫 Error! Invalid number. Number must not be greater than 11 digits")
+    } else if (checkNumber === m1.GSM || checkNumber === m2.GSM || checkNumber === m3.GSM || checkNumber === m4.GSM || checkNumber === m5.GSM || checkNumber === m6.GSM || checkNumber === m7.GSM || checkNumber === m8.GSM || checkNumber === m9.GSM) {
         form.nettyResult.value = iInput + " belongs to MTN network 💛"
-    }
-    else if (checkNumber === g1.GSM || checkNumber === g2.GSM || checkNumber === g3.GSM || checkNumber === g4.GSM || checkNumber === g5.GSM || checkNumber === g6.GSM) {
+    } else if (checkNumber === g1.GSM || checkNumber === g2.GSM || checkNumber === g3.GSM || checkNumber === g4.GSM || checkNumber === g5.GSM || checkNumber === g6.GSM) {
         form.nettyResult.value = iInput + " belongs to GLO network 💚"
-    }
-    else if (checkNumber === n1.GSM || checkNumber === n2.GSM || checkNumber === n3.GSM || checkNumber === n4.GSM || checkNumber === n5.GSM) {
+    } else if (checkNumber === n1.GSM || checkNumber === n2.GSM || checkNumber === n3.GSM || checkNumber === n4.GSM || checkNumber === n5.GSM) {
         form.nettyResult.value = iInput + " belongs to 9MOBILE network 💚"
-    }
-    else if (checkNumber === a1.GSM || checkNumber === a2.GSM || checkNumber === a3.GSM || checkNumber === a4.GSM || checkNumber === a5.GSM || checkNumber === a6.GSM || checkNumber === a7.GSM) {
+    } else if (checkNumber === a1.GSM || checkNumber === a2.GSM || checkNumber === a3.GSM || checkNumber === a4.GSM || checkNumber === a5.GSM || checkNumber === a6.GSM || checkNumber === a7.GSM) {
         form.nettyResult.value = iInput + " belongs to AIRTEL network ❤️"
-    }
-    else if (checkNumber2 === s1.GSM || checkNumber2 === s2.GSM || checkNumber === s3.GSM) {
+    } else if (checkNumber2 === s1.GSM || checkNumber2 === s2.GSM || checkNumber === s3.GSM) {
         form.nettyResult.value = iInput + " belongs to STARCOMMS network 💛️"
-    }
-    else if (checkNumber2 === v1.GSM || checkNumber2 === v2.GSM || checkNumber === v3.GSM) {
+    } else if (checkNumber2 === v1.GSM || checkNumber2 === v2.GSM || checkNumber === v3.GSM) {
         form.nettyResult.value = iInput + " belongs to VISAFONE network 💗"
-    }
-    else if (checkNumber2 === mu1.GSM || checkNumber === mu2.GSM) {
+    } else if (checkNumber2 === mu1.GSM || checkNumber === mu2.GSM) {
         form.nettyResult.value = iInput + " belongs to MULTILINKS network 💙"
-    }
-    else if (checkNumber === s1.GSM || checkNumber === s2.GSM || checkNumber === s3.GSM) {
+    } else if (checkNumber === s1.GSM || checkNumber === s2.GSM || checkNumber === s3.GSM) {
         form.nettyResult.value = iInput + " belongs to STARCOMMS network 💛️"
-    }
-    else if (checkNumber === z1.GSM) {
+    } else if (checkNumber === z1.GSM) {
         form.nettyResult.value = iInput + " belongs to ZOOM network 💛️"
-    }
-    else if (checkNumber === nt1.GSM) {
+    } else if (checkNumber === nt1.GSM) {
         form.nettyResult.value = iInput + " belongs to NTEL network 💖"
-    }
-    else if (checkNumber === sm1.GSM) {
+    } else if (checkNumber === sm1.GSM) {
         form.nettyResult.value = iInput + " belongs to SMILE network 💛️"
-    }
-    else {
-        alert(iInput + " belongs to no Nigerian network, check the number and TRY AGAIN!!")
+    } else {
+        alert("🚫 " + iInput + " belongs to no Nigerian network, check the number and TRY AGAIN!!")
     }
 }
 
