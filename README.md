@@ -8,6 +8,8 @@ This script checks a Nigerian Telephone number and detects which network it belo
 
 Demo [Here](https://netty-finder.herokuapp.com)
 
+Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
+
 
 
 # Contributor's Guide
