@@ -19,9 +19,14 @@ Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 
 # Mobile View
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/mobile1.jpg" width="250" alt="Desktop View">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/mobile2.jpg" width="250" alt="Desktop View">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/mobile3.jpg" width="250" alt="Desktop View">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/mobile1.jpg" width="350" alt="Mobile View">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/mobile2.jpg" width="350" alt="Mobile View">
+</p>
+
+# Android Version
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android1.png" width="350" alt="Android Version">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android2.png" width="350" alt="Android Version">
 </p>
 
 
