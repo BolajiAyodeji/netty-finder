@@ -11,9 +11,9 @@ Demo [Here](https://netty-finder.herokuapp.com)
 Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/Netty-Finder-/master/screenshots/desktop1.jpg" width="350" title="hover text">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/desktop1.jpg" width="350" alt="Desktop View 1">
     <br>
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/Netty-Finder/master/screenshots/desktop2.png" width="350" alt="accessibility text">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/desktop2.jpg" width="350" alt="Desktop View">
 </p>
 
 
