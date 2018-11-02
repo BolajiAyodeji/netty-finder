@@ -161,8 +161,13 @@ svg {
     padding-bottom: 35px;
     color: #000;
     font-weight: 500;
+    margin-left: 150px;
 }
-
+@media (max-width: 699px){
+    #userInput button[type='button'] {
+     margin-left: 0px;
+    }
+}
 #userInput button[type='button']:hover {
     box-shadow: inset 0 0 0 2px #e9ecef;
     background: #11cdef;
@@ -177,6 +182,12 @@ svg {
     padding-bottom: 35px;
     color: #000;
     font-weight: 500;
+    margin-left: 150px;
+}
+@media (max-width: 699px){
+    #userInput button[type='button'] {
+     margin-left: 0px;
+    }
 }
 
 #userInput button[type='reset']:hover {
