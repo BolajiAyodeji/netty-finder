@@ -1,6 +1,3 @@
-// PWA Fire Bundle
-// url : https://www.pwafire.org 
-
 // after a service worker is installed and the user navigates to a different page or 
 // refreshes,the service worker will begin to receive fetch events
 
@@ -32,13 +29,14 @@ self.addEventListener('fetch', function (event) {
                             '/index.html', //default
                             '/index.html?homescreen=1', //default
                             '/?homescreen=1', //default
-                            '/css/app.css', // configure as by your site ; just an example
+                            '/css/main.css', // configure as by your site ; just an example
                             '/img/logo.png', // choose images to keep offline; just an example
-                            // Do not replace/delete/edit the manifest.js paths below
+                            // Do not replace/delete/editmganifest.js path below
+
+                            '/manifest.js',
                             //These are links to the extenal social media buttons that should be cached;
                             // we have used twitter's as an example
                             'https://platform.twitter.com/widgets.js',
-
                         ]);
                     })
                 );
