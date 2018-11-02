@@ -10,7 +10,7 @@
     <meta name="keywords" Content="netty finder, netty-finder, netty, nigerian networks, check network, phone number checker, find network, mtn, glo, 9mobile, aitel, ntel, swift, smile, 9ja" />
     <!-- Twitter Card-->
     <meta name="twitter:title" content="NettyFinder">
-    <meta name="twitter:site" content="https://bolajiayodeji.github.io/netty-finder" />
+    <meta name="twitter:site" content="https://netty-finder.herokuapp.com" />
     <meta name="twitter:creator" content="@iambolajiayo" />
     <meta name="twitter:description" content="This script checks a Nigerian Telephone number and detects which network it belongs to.">
     <meta name="twitter:image" content="img/logo.png">
@@ -22,9 +22,16 @@
     <meta name="author" content="Bolaji Ayodeji">
     <meta property="og:description" content="This script checks a Nigerian Telephone number and detects which network it belongs to." />
     <meta name="author" content="Bolaji Ayodeji">
-    <meta property="og:url" content="https://bolajiayodeji.github.io/netty-finder" />
+    <meta property="og:url" content="https://netty-finder.herokuapp.com" />
     <meta property="og:site_name" content="NettyFinder" />
     <meta property="og:type" content="NettyFinder" />
+
+    <!-- Theme-color -->
+    <meta name="theme-color" content="#fff" />
+
+    <!-- start of web manifest -->
+    <link rel="manifest" href="/manifest.json">
+
 
     <!-- Google Knowledge Graph card -->
     <script type='application/ld+json'>
@@ -32,8 +39,8 @@
             "@context": "http://www.schema.org",
             "@type": "NettyFinder",
             "name": "NettyFinder",
-            "url": "https://bolajiayodeji.github.io/netty-finder",
-            "logo": "https://bolajiayodeji.github.io/netty-finder/img/logo.png",
+            "url": "https://netty-finder.herokuapp.com",
+            "logo": "https://netty-finder.herokuapp.com/img/logo.png",
             "description": "This script checks a Nigerian Telephone number and detects which network it belongs to."
         }
     </script>
@@ -213,6 +220,18 @@
     <script async defer src="https://buttons.github.io/buttons.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js "></script>
     <script src="js/app.js "></script>
+    <!-- register service worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(function () {
+                        console.log("Service Worker Registered, Cheers to PWA Fire!");
+                    });
+            });
+        }
+    </script>
+    <!-- end of service worker -->
 </body>
 
 </html>
