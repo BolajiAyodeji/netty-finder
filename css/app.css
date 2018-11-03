@@ -185,7 +185,7 @@ svg {
     margin-left: 150px;
 }
 @media (max-width: 699px){
-    #userInput button[type='button'] {
+    #userInput button[type='reset'] {
      margin-left: 0px;
     }
 }
