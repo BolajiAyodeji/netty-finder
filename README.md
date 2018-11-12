@@ -32,7 +32,7 @@ Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 # Python Version
 [netty-finder-python](https://github.com/CITGuru/netty-finder-python/)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/python.png" width="350" alt="Android Version">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/python.png" width="350" alt="Python Version">
  </p>
 
 
