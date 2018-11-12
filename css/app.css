@@ -153,36 +153,20 @@ svg {
   color: rgba(20, 20, 20, 0.5);
 }
 
-#userInput button[type='submit'] {
-  background: transparent;
-  box-shadow: inset 0 0 0 2px #e9ecef;
-  border-radius: 15px;
-  padding-top: 15px;
-  padding-bottom: 35px;
-  color: #000;
-  font-weight: 500;
+#userInput .submit-btn {
+    background: transparent;
+    box-shadow: inset 0 0 0 2px #e9ecef;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    color: #000;
+    font-weight: 500;
 }
 
-#userInput button[type='submit']:hover {
-  box-shadow: inset 0 0 0 2px #e9ecef;
-  background: #11cdef;
-  color: #000;
-}
-
-#userInput button[type='reset'] {
-  background: transparent;
-  box-shadow: inset 0 0 0 2px #e9ecef;
-  border-radius: 15px;
-  padding-top: 15px;
-  padding-bottom: 35px;
-  color: #000;
-  font-weight: 500;
-}
-
-#userInput button[type='reset']:hover {
-  box-shadow: inset 0 0 0 2px #e9ecef;
-  background: #11cdef;
-  color: #000;
+#userInput .submit-btn:hover {
+    box-shadow: inset 0 0 0 2px #e9ecef;
+    background: #11cdef;
+    color: #000;
 }
 
 footer {
