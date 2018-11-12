@@ -10,6 +10,8 @@ Demo [Here](https://netty-finder.herokuapp.com)
 
 Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 
+Python Version [Here](https://github.com/CITGuru/netty-finder-python)
+
 # Desktop View
 <p align="center">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/desktop1.jpg" alt="Desktop View">
@@ -30,7 +32,6 @@ Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 </p>
 
 # Python Version
-[netty-finder-python](https://github.com/CITGuru/netty-finder-python/)
 <p align="center">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/python.png" width="350" alt="Python Version">
  </p>
