@@ -5,6 +5,7 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat)](http://makeapullrequest.com)
 
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
+[![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
 
 This script checks a Nigerian Telephone number and detects which network it belongs to. <br>
 
@@ -15,6 +16,8 @@ Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 Download APK File [Here](https://raw.githubusercontent.com/Zfinix/NettyFinder-Android/master/neffyfinder.apk)
 
 Python Version [Here](https://github.com/CITGuru/netty-finder-python)
+
+NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
 
 # Desktop View
 
