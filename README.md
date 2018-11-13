@@ -1,7 +1,9 @@
 # NettyFinder :rocket:
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/For-Nigerians-brightgreen.svg)
+
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat)](http://makeapullrequest.com)
+
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
 
 This script checks a Nigerian Telephone number and detects which network it belongs to. <br>
@@ -10,9 +12,12 @@ Web Version Demo [Here](https://netty-finder.herokuapp.com)
 
 Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 
+Download APK File [Here](https://raw.githubusercontent.com/Zfinix/NettyFinder-Android/master/neffyfinder.apk)
+
 Python Version [Here](https://github.com/CITGuru/netty-finder-python)
 
 # Desktop View
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/desktop1.jpg" alt="Desktop View">
     <br>
@@ -20,22 +25,30 @@ Python Version [Here](https://github.com/CITGuru/netty-finder-python)
 </p>
 
 # Mobile View
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/mobile1.jpg" width="350" alt="Mobile View">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/mobile2.jpg" width="350" alt="Mobile View">
 </p>
 
 # Android Version
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android1.png" width="350" alt="Android Version">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android2.png" width="350" alt="Android Version">
 </p>
 
 # Python Version
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/python.png" width="350" alt="Python Version">
  </p>
 
+# npm Version
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/npm.png" width="350" alt="Python Version">
+ </p>
 
 # Contributor's Guide
 
@@ -79,11 +92,11 @@ Issues can be submitted by anyone, seasoned developers or newbies.
     and
     [here to practice](http://www.markdowntutorial.com/).
 
-    *   If you are adding a new project/organisation to the README, make sure
-        it's listed in alphabetical order.
-    *   If you are adding a new organisation, make sure you add an organisation
-        label to the organisation name. This would help distinguish projects
-        from organisation projects.
+    - If you are adding a new project/organisation to the README, make sure
+      it's listed in alphabetical order.
+    - If you are adding a new organisation, make sure you add an organisation
+      label to the organisation name. This would help distinguish projects
+      from organisation projects.
 
 6.  After making your changes in the new git branch then add your modified
     files to git,
@@ -102,19 +115,19 @@ Issues can be submitted by anyone, seasoned developers or newbies.
     Note, using a `git add .` will automatically add all files. You can do a
     `git status` to see your changes, but do it before `git add`.
 
-6.  Commit your changes using a descriptive commit message.
+7.  Commit your changes using a descriptive commit message.
 
     ```shell
     git commit -m "Brief Description of Commit"
     ```
 
-7.  Push your commits to your Github Fork:
+8.  Push your commits to your Github Fork:
 
     ```shell
     git push -u origin branch-name
     ```
 
-8.  Submit a pull request.
+9.  Submit a pull request.
 
     Within GitHub, visit this main repository and you should see a banner
     suggesting to make a pull request. While you're writing up the pull
@@ -135,7 +148,6 @@ In a situation whereby somebody decides to fix an issue but doesn't follow up
 for a particular period of time, say 2-3 weeks, it's acceptable to still pick
 up the issue but make sure to leave a comment.
 
-
 ### Helpful Resources
 
 - [Pro GIT Book](https://git-scm.com/book/en/v2)
@@ -143,4 +155,3 @@ up the issue but make sure to leave a comment.
 - [Try Git](https://try.github.io/)
 
 - [Git/ Git Hub on Windows](https://www.youtube.com/watch?v=J_Clau1bYco)
-
