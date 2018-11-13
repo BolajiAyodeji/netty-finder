@@ -13,6 +13,8 @@ Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 
 Python Version [Here](https://github.com/CITGuru/netty-finder-python)
 
+NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
+
 # Desktop View
 <p align="center">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/desktop1.jpg" alt="Desktop View">
