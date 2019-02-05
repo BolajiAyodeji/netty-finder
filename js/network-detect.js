@@ -1,9 +1,9 @@
-const NetworkDetect = function(phone) {
+const NetworkDetect = function (phone) {
   this.phone = phone.toString()
 }
 
 NetworkDetect.prototype = {
-  getNetworks: function() {
+  getNetworks: function () {
     return {
       '9mobile': ['0809', '0909', '0817', '0818', '0908'],
       mtn: [
@@ -29,7 +29,7 @@ NetworkDetect.prototype = {
     }
   },
 
-  getNetworkName: function() {
+  getNetworkName: function () {
     this.validate()
 
     let phone_primary_prefix = this.getPhonePrefix()
@@ -88,12 +88,12 @@ NetworkDetect.prototype = {
     return null
   },
 
-  getPhonePrefix: function(length) {
+  getPhonePrefix: function (length) {
     length = length || 4
     return this.phone.substr(0, length)
   },
 
-  validate: function() {
+  validate: function () {
     //Check if no value is passed
     if (!this.phone) {
       throw new Error('Invalid phone number')
