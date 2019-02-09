@@ -1,3 +1,4 @@
+<div align="center">
 # NettyFinder :rocket:
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/For-Nigerians-brightgreen.svg)
@@ -51,15 +52,9 @@ NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
 <p align="center">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/npm.png" width="350" alt="Python Version">
  </p>
+</div>
 
 # Contributor's Guide
-
-HOW TO CONTRIBUTE TO OPEN SOURCE accepts PR's (pull requests) from **newbies**
-only, this is to help **newbies** get familiar with contribution processes.
-
-Issues can be submitted by anyone, seasoned developers or newbies.
-
-### Getting Started
 
 1.  If you are new to Git and Github, it is advisable you go through
     [GitHub For Beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
