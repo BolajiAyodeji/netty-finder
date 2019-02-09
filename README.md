@@ -69,7 +69,7 @@ NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
 https://github.com/BolajiAyodeji/netty-finder.git
 ```
 
-- Install all dependencies
+- Install dependencies
 ```git
 npm install
 ```
