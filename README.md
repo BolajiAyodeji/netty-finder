@@ -8,7 +8,7 @@
 
 ![](https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/img/NettyFinder.png)
                                                                                                         
-## `This script checks a Nigerian Telephone number and detects which network it belongs to.` <br>
+#### `This script checks a Nigerian Telephone number and detects which network it belongs to.` <br>
 
 Web Version Demo [Here](https://netty-finder.herokuapp.com)
 
