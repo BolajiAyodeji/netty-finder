@@ -61,7 +61,7 @@ NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
     [GitHub For Beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
     before moving to the next step.
 
-2.  Fork the project on Github [here](https://github.com/BolajiAyodeji/netty-finder/fork)
+2.  Fork the project on Github [here](https://github.com/BolajiAyodeji/netty-finder/fork) <br>
     [Help Guide to Fork a repository](https://help.github.com/articles/fork-a-repo/).
 
 3.  Clone the project.
