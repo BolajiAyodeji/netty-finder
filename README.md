@@ -1,6 +1,4 @@
 <div align="center">
-  
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/img/NettyFinder.png" alt="netty-finder logo>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![](https://img.shields.io/badge/For-Nigerians-brightgreen.svg)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat)](http://makeapullrequest.com)
@@ -8,6 +6,8 @@
 [![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
 [![Open Source Helpers](https://www.codetriage.com/bolajiayodeji/netty-finder/badges/users.svg)](https://www.codetriage.com/bolajiayodeji/netty-finder)
 
+<img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/img/NettyFinder.png" alt="netty-finder logo>
+                                                                                                        
 This script checks a Nigerian Telephone number and detects which network it belongs to. <br>
 
 Web Version Demo [Here](https://netty-finder.herokuapp.com)
