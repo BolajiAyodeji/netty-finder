@@ -93,17 +93,6 @@ description of the changes you're making. For example `update-readme` or
 -  Open up the project in your favourite text editor, select the file you want
     to contribute to and make your changes.
 
-    If you are making changes to the README.md file, you would need to have
-    Markdown knowledge. Visit
-    [here to read about GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
-    and
-    [here to practice](http://www.markdowntutorial.com/).
-
-    - If you are adding a new project/organisation to the README, make sure
-      it's listed in alphabetical order.
-    - If you are adding a new organisation, make sure you add an organisation
-      label to the organisation name. This would help distinguish projects
-      from organisation projects.
 
 -  After making your changes in the new git branch then add your modified
     files to git,
@@ -113,26 +102,26 @@ description of the changes you're making. For example `update-readme` or
 git add path/to/filename.ext
 ```
 
-    You can also add all unstaged files using:
+You can also add all unstaged files using:
 
 ```shell
 git add .
 ```
 
-    Note, using a `git add .` will automatically add all files. You can do a
-    `git status` to see your changes, but do it before `git add`.
+Note, using a `git add .` will automatically add all files. You can do a
+`git status` to see your changes, but do it before `git add`.
 
 -  Commit your changes using a descriptive commit message.
 
-    ```shell
-    git commit -m "Brief Description of Commit"
-    ```
+```shell
+git commit -m "Brief Description of Commit"
+```
 
 -  Push your commits to your Github Fork:
 
-    ```shell
-    git push -u origin branch-name
-    ```
+```shell
+git push -u origin branch-name
+```
 
 -  Submit a pull request.
 
