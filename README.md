@@ -81,14 +81,14 @@ npm run build
 
 -  Create a branch specific to the issue you are working on.
 
-    ```git
-    git checkout -b update-readme-file
-    ```
+```git
+git checkout -b update-readme-file
+```
 
-    For clarity to yourself and others on the issue you're working on, name
-    your branch something like `update-xxx` or `fix-xxx` where `xxx` is a short
-    description of the changes you're making. For example `update-readme` or
-    `fix-typo-on-contribution-md`.
+For clarity to yourself and others on the issue you're working on, name
+your branch something like `update-xxx` or `fix-xxx` where `xxx` is a short
+description of the changes you're making. For example `update-readme` or
+`fix-typo-on-contribution-md`.
 
 -  Open up the project in your favourite text editor, select the file you want
     to contribute to and make your changes.
@@ -109,15 +109,15 @@ npm run build
     files to git,
     [How to add, commit, push and go](http://readwrite.com/2013/10/02/github-for-beginners-part-2/).
 
-    ```shell
-    git add path/to/filename.ext
-    ```
+```shell
+git add path/to/filename.ext
+```
 
     You can also add all unstaged files using:
 
-    ```shell
-    git add .
-    ```
+```shell
+git add .
+```
 
     Note, using a `git add .` will automatically add all files. You can do a
     `git status` to see your changes, but do it before `git add`.
