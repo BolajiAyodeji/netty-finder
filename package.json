@@ -1,0 +1,31 @@
+{
+  "name": "netty-finder",
+  "version": "1.0.0",
+  "description": "This script checks a Nigerian Telephone number and detects which network it belongs to.",
+  "main": "dist/js/app.js",
+  "scripts": {
+    "test": "npm run build",
+    "build": "babel src -d dist -w -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BolajiAyodeji/netty-finder.git"
+  },
+  "keywords": [
+    "netty-finder",
+    "network",
+    "finder",
+    "nigeria"
+  ],
+  "author": "Bolaji Ayodeji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BolajiAyodeji/netty-finder/issues"
+  },
+  "homepage": "https://github.com/BolajiAyodeji/netty-finder#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  }
+}
