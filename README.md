@@ -65,18 +65,17 @@ Issues can be submitted by anyone, seasoned developers or newbies.
     [GitHub For Beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
     before moving to the next step.
 
-2.  Fork the project on Github,
+2.  Fork the project on Github [here](https://github.com/BolajiAyodeji/netty-finder/fork)
     [Help Guide to Fork a repository](https://help.github.com/articles/fork-a-repo/).
 
-    ![Illustration for how to fork a repository](https://hisham.hm/img/posts/github-fork.png)
-
 3.  Clone the project.
-
-    ![Illustration for how to clone the project](https://services.github.com/on-demand/images/gifs/github-desktop/clone-repository-locally.gif)
+```git
+https://github.com/BolajiAyodeji/netty-finder.git
+```
 
 4.  Create a branch specific to the issue you are working on.
 
-    ```shell
+    ```git
     git checkout -b update-readme-file
     ```
 
