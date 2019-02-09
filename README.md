@@ -6,7 +6,7 @@
 [![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
 [![Open Source Helpers](https://www.codetriage.com/bolajiayodeji/netty-finder/badges/users.svg)](https://www.codetriage.com/bolajiayodeji/netty-finder)
 
-<img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/img/NettyFinder.png" alt="netty-finder logo>
+![](https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/img/NettyFinder.png)
                                                                                                         
 This script checks a Nigerian Telephone number and detects which network it belongs to. <br>
 
