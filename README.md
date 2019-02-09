@@ -57,19 +57,29 @@ NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
 
 # Contributor's Guide
 
-1.  If you are new to Git and Github, it is advisable you go through
+-  If you are new to Git and Github, it is advisable you go through
     [GitHub For Beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
     before moving to the next step.
 
-2.  Fork the project on Github [here](https://github.com/BolajiAyodeji/netty-finder/fork) <br>
+-  Fork the project on Github [here](https://github.com/BolajiAyodeji/netty-finder/fork) <br>
     [Help Guide to Fork a repository](https://help.github.com/articles/fork-a-repo/).
 
-3.  Clone the project.
+-  Clone the project.
 ```git
 https://github.com/BolajiAyodeji/netty-finder.git
 ```
 
-4.  Create a branch specific to the issue you are working on.
+- Install all dependencies
+```git
+npm install
+```
+
+- To build
+```git
+npm run build
+```
+
+-  Create a branch specific to the issue you are working on.
 
     ```git
     git checkout -b update-readme-file
@@ -80,7 +90,7 @@ https://github.com/BolajiAyodeji/netty-finder.git
     description of the changes you're making. For example `update-readme` or
     `fix-typo-on-contribution-md`.
 
-5.  Open up the project in your favourite text editor, select the file you want
+-  Open up the project in your favourite text editor, select the file you want
     to contribute to and make your changes.
 
     If you are making changes to the README.md file, you would need to have
@@ -95,7 +105,7 @@ https://github.com/BolajiAyodeji/netty-finder.git
       label to the organisation name. This would help distinguish projects
       from organisation projects.
 
-6.  After making your changes in the new git branch then add your modified
+-  After making your changes in the new git branch then add your modified
     files to git,
     [How to add, commit, push and go](http://readwrite.com/2013/10/02/github-for-beginners-part-2/).
 
@@ -112,19 +122,19 @@ https://github.com/BolajiAyodeji/netty-finder.git
     Note, using a `git add .` will automatically add all files. You can do a
     `git status` to see your changes, but do it before `git add`.
 
-7.  Commit your changes using a descriptive commit message.
+-  Commit your changes using a descriptive commit message.
 
     ```shell
     git commit -m "Brief Description of Commit"
     ```
 
-8.  Push your commits to your Github Fork:
+-  Push your commits to your Github Fork:
 
     ```shell
     git push -u origin branch-name
     ```
 
-9.  Submit a pull request.
+-  Submit a pull request.
 
     Within GitHub, visit this main repository and you should see a banner
     suggesting to make a pull request. While you're writing up the pull
