@@ -97,9 +97,11 @@ function compute(ev) {
 
   //Validates number and detects network
   if (checkValid.length < 11) {
-    alert("🚫 Error! Invalid number. Number must not be lesser than 11 digits" )
+    //alert("🚫 Error! Invalid number. Number must not be lesser than 11 digits" )
+    swal("🚫", "Error! Invalid number. Number must not be lesser than 11 digits", "error" )
   } else if (checkValid.length > 11) {
-    alert("🚫 Error! Invalid number. Number must not be greater than 11 digits" )
+    //alert("🚫 Error! Invalid number. Number must not be greater than 11 digits" )
+    swal("🚫", "Error! Invalid number. Number must not be greater than 11 digits", "error" )
   } else if (checkNumber === m1.GSM || checkNumber === m2.GSM || checkNumber === m3.GSM || checkNumber === m4.GSM || checkNumber === m5.GSM || checkNumber === m6.GSM || checkNumber === m7.GSM || checkNumber === m8.GSM || checkNumber === m9.GSM) {
     form.nettyResult.value = iInput + " belongs to MTN network 💛"
   } else if (checkNumber === g1.GSM || checkNumber === g2.GSM || checkNumber === g3.GSM || checkNumber === g4.GSM || checkNumber === g5.GSM || checkNumber === g6.GSM) {
@@ -123,7 +125,8 @@ function compute(ev) {
   } else if (checkNumber === sm1.GSM) {
     form.nettyResult.value = iInput + " belongs to SMILE network 💛️"
   } else {
-    alert("🚫 " + iInput + " belongs to no Nigerian network, check the number and TRY AGAIN!!")
+    //alert("🚫 " + iInput + " belongs to no Nigerian network, check the number and TRY AGAIN!!")
+    swal("🚫 ", iInput + " belongs to no Nigerian network, check the number and TRY AGAIN!!", "error")
   }
 }
 
