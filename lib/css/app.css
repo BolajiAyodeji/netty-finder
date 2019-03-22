@@ -1,13 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #23283e;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
 
 * {
-  box-sizing: border-box;
-  border: 1px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 h2,
@@ -24,7 +42,9 @@ a {
 
 header {
   position: relative;
-  height: 300px;
+  top: -22px;
+  height: 100%;
+  width: 100%;
   background: linear-gradient(to right, #2dce89, #11cdef);
 }
 
@@ -36,19 +56,6 @@ h1 {
 
 header h1 {
   color: white;
-}
-
-svg {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-}
-
-@media (max-width: 699px) {
-  .svg--lg {
-    display: none;
-  }
 }
 
 .container {
@@ -141,7 +148,7 @@ svg {
 }
 
 #userInput .form-control:focus {
-  box-shadow: 0 0 0 3px #e9ecef;
+  box-shadow: 0 0 0 3px #000;
 }
 
 #userInput input,
@@ -155,7 +162,7 @@ svg {
 
 #userInput .submit-btn {
     background: transparent;
-    box-shadow: inset 0 0 0 2px #e9ecef;
+    box-shadow: inset 0 0 0 2px #000;
     border-radius: 15px;
     padding-top: 15px;
     padding-bottom: 35px;
@@ -164,7 +171,7 @@ svg {
 }
 
 #userInput .submit-btn:hover {
-    box-shadow: inset 0 0 0 2px #e9ecef;
+    box-shadow: inset 0 0 0 2px #000;
     background: #11cdef;
     color: #000;
 }
