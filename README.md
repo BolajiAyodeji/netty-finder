@@ -1,5 +1,7 @@
 # Netty-Finder
 
+This script checks a Nigerian Telephone number and detects which network it belongs to
+
 <div align="center>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/86933b71-e9fe-4d90-9100-470860e5379d/deploy-status)](https://app.netlify.com/sites/netty-finder/deploys)
