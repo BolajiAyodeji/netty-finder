@@ -49,7 +49,7 @@ header {
 }
 
 h1 {
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
   font-size: 50px;
   text-align: center;
 }
@@ -63,43 +63,6 @@ header h1 {
   width: 100%;
 }
 
-.ml1 {
-  font-weight: 300;
-  font-size: 0.8em;
-}
-
-.ml1 .letter {
-  display: inline-block;
-  line-height: 1em;
-  padding: 10px 0 10px 0;
-}
-
-.ml1 .text-wrapper {
-  position: relative;
-  display: inline-block;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.15em;
-}
-
-.ml1 .line {
-  opacity: 0;
-  position: absolute;
-  left: 0;
-  height: 3px;
-  width: 100%;
-  background-color: #fff;
-  transform-origin: 0 0;
-}
-
-.ml1 .line1 {
-  top: 0;
-}
-
-.ml1 .line2 {
-  bottom: 0;
-}
-
 .flag {
   width: 2%;
 }
@@ -111,6 +74,10 @@ header h1 {
 
 .btn-primary:hover {
   background-color: #ffc107;
+}
+
+.form-group {
+  padding-top: 5em;
 }
 
 #userInput {
@@ -179,8 +146,7 @@ header h1 {
 footer {
   background: #000;
   position: relative;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  padding: 40px 0 40px 0;
 }
 
 footer h2 {
