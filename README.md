@@ -16,15 +16,15 @@ Other versions of this project created by some amazing Contributors 💙💙.
 
 | Version   | Author |
 |-----------|--------|
-[Web && PWA](https://netty-finder.herokuapp.com) | Bolaji Ayodeji |
-[Android Version](https://github.com/Zfinix/NettyFinder-Android) | Zfinix |
-[Python Version](https://github.com/CITGuru/netty-finder-python) | CITGuru |
-[NodeJS Version](https://github.com/CITGuru/netty-finder-nodejs) | CITGuru |
+[Web && PWA](https://netty-finder.herokuapp.com) | [Bolaji Ayodeji](https://github.com/BolajiAyodeji) |
+[Android Version](https://github.com/Zfinix/NettyFinder-Android) | [Ogbonda Chiziaruhoma](https://github.com/Zfinix) |
+[Python Version](https://github.com/CITGuru/netty-finder-python) | [Oyetoke Toby](https://github.com/CITGuru) |
+[NodeJS Version](https://github.com/CITGuru/netty-finder-nodejs) | [Oyetoke Toby](https://github.com/CITGuru) |
 
 
 # Contributors Guide
 
-See [here]()
+See [here](https://github.com/BolajiAyodeji/netty-finder/blob/master/CONTRIBUTING.md)
 
 # License
 
