@@ -114,4 +114,4 @@ function compute(ev) {
 
 console.log("Hurray! Script working perfectly");
 console.log("Developed by Bolaji Ayodeji");
-//# sourceMappingURL=nettyDefault.js.map
+//# sourceMappingURL=es5-netty.js.map
