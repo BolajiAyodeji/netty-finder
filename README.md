@@ -26,6 +26,8 @@ Other versions of this project created by some amazing Contributors 💙💙.
 [Python Version](https://github.com/CITGuru/netty-finder-python) | CITGuru |
 [NodeJS Version](https://github.com/CITGuru/netty-finder-nodejs) | CITGuru |
 
+</div>
+
 # Contributors Guide
 
 See [here]()
