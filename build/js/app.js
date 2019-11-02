@@ -11,14 +11,20 @@ var compute = function compute(ev) {
     var network = detector.getNetworkName();
 
     if (!network) {
-      return result.value = "🚫 Network not found, check the number and TRY AGAIN!!";
+      return result.value = "Network not found, check the number and TRY AGAIN!!";
     }
 
     form.telephone.value = ''; // clear input field
 
-    return result.value = phone + ' belongs to the ' + network + ' network 💚';
+    return new Toast({
+      message: "".concat(phone, " belongs to the ").concat(network, " network \uD83D\uDC9A"),
+      type: 'success'
+    });
   } catch (e) {
-    return alert(e.message);
+    return new Toast({
+      message: e.message,
+      type: 'danger'
+    });
   }
 };
 

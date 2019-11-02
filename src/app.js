@@ -10,13 +10,19 @@ const compute = function(ev) {
     let network = detector.getNetworkName();
 
     if (!network) {
-      return result.value = "🚫 Network not found, check the number and TRY AGAIN!!";
+      return result.value = "Network not found, check the number and TRY AGAIN!!";
     }
 
     form.telephone.value = ''; // clear input field
-    return result.value = phone + ' belongs to the ' + network + ' network 💚';
+    return new Toast({
+      message: `${phone} belongs to the ${network} network 💚`,
+      type: 'success'
+    })
   } catch (e) {
-    return alert(e.message);
+    return new Toast({
+      message: e.message,
+      type: 'danger'
+    })
   }
 }
 

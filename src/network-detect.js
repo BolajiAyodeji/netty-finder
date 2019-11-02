@@ -95,13 +95,13 @@ NetworkDetect.prototype = {
 
     if (this.phone.length < 11) {
       throw new Error(
-        '🚫 Invalid number. Number must not be lesser than 11 digits'
+        'Number must not be lesser than 11 digits'
       )
     }
 
     if (this.phone.length > 11) {
       throw new Error(
-        '🚫 Invalid number. Number must not be greater than 11 digits'
+        'Number must not be greater than 11 digits'
       )
     }
 
