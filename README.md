@@ -9,6 +9,14 @@
                                                                                                         
 #### `This script checks a Nigerian Telephone number and detects which network it belongs to.` <br>
 
+# Demo
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/desktop1.jpg" alt="Desktop View">
+    <br>
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/desktop2.jpg" alt="Desktop View">
+</p>
+
 Other versions of this project created by some amazing Contributors 💙💙.
 
 | Version   | Author |
@@ -17,34 +25,6 @@ Other versions of this project created by some amazing Contributors 💙💙.
 [Android Version](https://github.com/Zfinix/NettyFinder-Android) | Zfinix |
 [Python Version](https://github.com/CITGuru/netty-finder-python) | CITGuru |
 [NodeJS Version](https://github.com/CITGuru/netty-finder-nodejs) | CITGuru |
-
-# Desktop Version
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/desktop1.jpg" alt="Desktop View">
-    <br>
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/desktop2.jpg" alt="Desktop View">
-</p>
-
-# Android Version
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/android1.png" width="350" alt="Android Version">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/android2.png" width="350" alt="Android Version">
-</p>
-
-# Python Version
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/python.png" width="350" alt="Python Version">
- </p>
-
-# npm Version
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/npm.png" width="350" alt="Python Version">
- </p>
-</div>
 
 # Contributors Guide
 
