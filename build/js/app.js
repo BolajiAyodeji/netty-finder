@@ -3,7 +3,7 @@
 var compute = function compute(ev) {
   ev.preventDefault();
   var form = ev.target;
-  var phone = form.telephone.value;
+  var phone = form.telephone.value.replace(/\s/g, "");
   var detector = new NetworkDetect(phone);
   var result = form.nettyResult;
 

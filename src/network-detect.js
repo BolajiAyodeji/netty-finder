@@ -1,5 +1,5 @@
 const NetworkDetect = function (phone) {
-  this.phone = phone.toString()
+  this.phone = phone.toString().trim()
 }
 
 NetworkDetect.prototype = {

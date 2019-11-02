@@ -1,7 +1,7 @@
 "use strict";
 
 var NetworkDetect = function NetworkDetect(phone) {
-  this.phone = phone.toString();
+  this.phone = phone.toString().trim();
 };
 
 NetworkDetect.prototype = {
