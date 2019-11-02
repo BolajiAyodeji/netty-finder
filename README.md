@@ -55,3 +55,11 @@ NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
 # Contributors Guide
 
 See [here]()
+
+# License
+
+This project is open source and available under the [MIT License](https://github.com/BolajiAyodeji/netty-finder/blob/master/LICENSE).
+
+# Author
+
+Bolaji Ayodeji
