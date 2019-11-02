@@ -22,5 +22,13 @@ var compute = function compute(ev) {
   }
 };
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('../sw.js').then(function () {
+      console.log("Service Worker Registered!");
+    });
+  });
+}
+
 console.log("Developed by Bolaji Ayodeji");
 //# sourceMappingURL=app.js.map

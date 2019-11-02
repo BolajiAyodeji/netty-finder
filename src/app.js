@@ -18,7 +18,15 @@ const compute = function(ev) {
   } catch (e) {
     return alert(e.message);
   }
+}
 
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('../sw.js')
+      .then(function () {
+        console.log("Service Worker Registered!");
+      });
+  });
 }
 
 console.log("Developed by Bolaji Ayodeji")

@@ -34,7 +34,7 @@
   <meta name="theme-color" content="#fff" />
 
   <!-- start of web manifest -->
-  <link rel="manifest" href="/manifest.json">
+  <link rel="manifest" href="../manifest.json">
 
 
   <!-- Google Knowledge Graph card -->
@@ -48,15 +48,8 @@
       "description": "This script checks a Nigerian Telephone number and detects which network it belongs to."
     }
   </script>
-  <!--Bootstrap CDN-->
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <!--FontAwesome CDN-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
-    integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-  <!--Main Stylesheet-->
   <link rel="stylesheet" type="text/css" media="screen" href="./css/app.css" />
-  <!--logo-->
-  <link rel="shortcut icon" href="./img/logo.png">
+  <link rel="shortcut icon" href="/img/logo.png">
 </head>
 
 <body>
@@ -168,18 +161,6 @@
   <script src="./js/network-detect.js"></script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script src="./js/app.js"></script>
-  <!-- register service worker -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/service-worker.js')
-          .then(function () {
-            console.log("Service Worker Registered, Cheers to PWA Fire!");
-          });
-      });
-    }
-  </script>
-  <!-- end of service worker -->
 </body>
 
 </html>

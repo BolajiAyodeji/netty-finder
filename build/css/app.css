@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('./bootstrap.min.css');
+@import url('https://use.fontawesome.com/releases/v5.4.2/css/all.css');
 
 ::-webkit-scrollbar {
 	width: 6px;
