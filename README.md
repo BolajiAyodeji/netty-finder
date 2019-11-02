@@ -9,27 +9,21 @@
                                                                                                         
 #### `This script checks a Nigerian Telephone number and detects which network it belongs to.` <br>
 
-Web Version Demo [Here](https://netty-finder.herokuapp.com)
+Other versions of this project created by some amazing Contributors 💙💙.
 
-Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
+| Version   | Author |
+|-----------|--------|
+[Web && PWA](https://netty-finder.herokuapp.com) | Bolaji Ayodeji |
+[Android Version](https://github.com/Zfinix/NettyFinder-Android) | Zfinix |
+[Python Version](https://github.com/CITGuru/netty-finder-python) | CITGuru |
+[NodeJS Version](https://github.com/CITGuru/netty-finder-nodejs) | CITGuru |
 
-Python Version [Here](https://github.com/CITGuru/netty-finder-python)
-
-NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
-
-# Desktop View
+# Desktop Version
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/desktop1.jpg" alt="Desktop View">
     <br>
   <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/desktop2.jpg" alt="Desktop View">
-</p>
-
-# Mobile View
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/mobile1.jpg" width="350" alt="Mobile View">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/mobile2.jpg" width="350" alt="Mobile View">
 </p>
 
 # Android Version
