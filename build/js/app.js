@@ -36,5 +36,6 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+console.log("%cNetty-Finder", "color: blue");
 console.log("Developed by Bolaji Ayodeji");
 //# sourceMappingURL=app.js.map
