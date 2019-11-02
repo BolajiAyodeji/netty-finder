@@ -6,18 +6,7 @@ NetworkDetect.prototype = {
   getNetworks: function () {
     return {
       '9mobile': ['0809', '0909', '0817', '0818', '0908'],
-      mtn: [
-        '0806',
-        '0803',
-        '0816',
-        '0813',
-        '0810',
-        '0814',
-        '0903',
-        '0906',
-        '0703',
-        '0706',
-      ],
+      mtn: ['0806','0803','0816','0813','0810','0814','0903','0906','0703','0706',],
       glo: ['0805', '0705', '0905', '0807', '0815'],
       airtel: ['0802', '0902', '0701', '0808', '0708', '0812', '0907'],
       starcomms: ['07028', '07029', '0819'],
@@ -106,15 +95,16 @@ NetworkDetect.prototype = {
 
     if (this.phone.length < 11) {
       throw new Error(
-        '🚫 Error! Invalid number. Number must not be lesser than 11 digits'
+        '🚫 Invalid number. Number must not be lesser than 11 digits'
       )
     }
 
     if (this.phone.length > 11) {
       throw new Error(
-        '🚫 Error! Invalid number. Number must not be greater than 11 digits'
+        '🚫 Invalid number. Number must not be greater than 11 digits'
       )
     }
+
 
     return true
   },

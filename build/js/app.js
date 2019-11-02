@@ -11,7 +11,7 @@ var compute = function compute(ev) {
     var network = detector.getNetworkName();
 
     if (!network) {
-      return result.value = "🚫 " + this.phone + " belongs to no Nigerian network, check the number and TRY AGAIN!!";
+      return result.value = "🚫 Network not found, check the number and TRY AGAIN!!";
     }
 
     form.telephone.value = ''; // clear input field
