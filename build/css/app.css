@@ -78,15 +78,6 @@ header h1 {
   padding-top: 5em;
 }
 
-#userInput {
-  background: #2dce89;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2dce89, #11cdef);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2dce89, #11cdef);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 #userInput .section-title h2 {
   color: #fff;
 }
@@ -106,6 +97,7 @@ header h1 {
   border-radius: 8px;
   box-shadow: none;
   color: #000;
+  box-shadow: inset 0 0 0 2px #000;
   font-size: 15px;
   font-weight: normal;
   margin-bottom: 25px;
