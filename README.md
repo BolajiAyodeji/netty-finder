@@ -13,8 +13,6 @@ Web Version Demo [Here](https://netty-finder.herokuapp.com)
 
 Android Version [Here](https://github.com/Zfinix/NettyFinder-Android)
 
-Download APK File [Here](https://raw.githubusercontent.com/Zfinix/NettyFinder-Android/master/neffyfinder.apk)
-
 Python Version [Here](https://github.com/CITGuru/netty-finder-python)
 
 NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
@@ -22,35 +20,35 @@ NodeJS Version [Here](https://github.com/CITGuru/netty-finder-nodejs)
 # Desktop View
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/desktop1.jpg" alt="Desktop View">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/desktop1.jpg" alt="Desktop View">
     <br>
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/desktop2.jpg" alt="Desktop View">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/desktop2.jpg" alt="Desktop View">
 </p>
 
 # Mobile View
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/mobile1.jpg" width="350" alt="Mobile View">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/mobile2.jpg" width="350" alt="Mobile View">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/mobile1.jpg" width="350" alt="Mobile View">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/mobile2.jpg" width="350" alt="Mobile View">
 </p>
 
 # Android Version
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android1.png" width="350" alt="Android Version">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/android2.png" width="350" alt="Android Version">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/android1.png" width="350" alt="Android Version">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/android2.png" width="350" alt="Android Version">
 </p>
 
 # Python Version
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/python.png" width="350" alt="Python Version">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/python.png" width="350" alt="Python Version">
  </p>
 
 # npm Version
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/screenshots/npm.png" width="350" alt="Python Version">
+  <img src="https://raw.githubusercontent.com/BolajiAyodeji/netty-finder/master/build/img/screenshots/npm.png" width="350" alt="Python Version">
  </p>
 </div>
 
