@@ -141,10 +141,14 @@ header h1 {
     color: #000;
 }
 
+.gif {
+  padding-top: 30px;
+}
+
 footer {
   background: #000;
   position: relative;
-  padding: 40px 0 40px 0;
+  padding: 50px 0 50px 0;
 }
 
 footer h2 {
