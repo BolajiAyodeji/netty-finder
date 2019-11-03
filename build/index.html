@@ -5,8 +5,9 @@
   <title>NettyFinder 🇳🇬</title>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-  <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0" />
   <meta name="google-site-verification" content="3BSMr7WxHkkxpM0Kfol42yWYvocFLiKQ3GPjsUSYnuk" />
+  <link rel="canonical" href="https://netty-finder.netlify.com/">
   <meta name="keywords"
     Content="netty finder, netty-finder, netty, nigerian networks, check network, phone number checker, find network, mtn, glo, 9mobile, aitel, ntel, swift, smile, 9ja" />
   <!-- Twitter Card-->
@@ -54,6 +55,9 @@
 </head>
 
 <body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0&appId=1638690196224226&autoLogAppEvents=1"></script>
   <header>
     <h1>NettyFinder 🚀</h1>
     <p class="text-center">Check a +234 telephone number and detect which network it belongs to.</p>
@@ -74,8 +78,9 @@
                 </div>
               </div>
               <div class="col-md-12 col-sm-12">
-                <input type="text" name="telephone" class="form-control" placeholder="Enter Telephone number"
-                  id="cf-name" autocomplete="off">
+                <label for="telephone number">Enter telephone number: </label>
+                <input type="text" name="telephone number" id="telephone number" class="form-control"
+                  placeholder="Enter telephone number" autocomplete="off">
               </div>
               <div class="col-md-6 col-sm-3">
                 <button type="submit" class="btn submit-btn form-control">Check Network</button>
@@ -87,7 +92,7 @@
 
         <div class="col-md-6 col-sm-6">
           <div class="container gif">
-            <img src="./img/nigeria.gif" class="img-responsive" alt="nettyfinder spaceship">
+            <img src="./img/nigeria.gif" class="img-responsive" alt="GIF of humans happy and celebrating nigeria">
           </div>
         </div>
       </div>
@@ -111,20 +116,16 @@
         <div class=" col-md-3 col-sm-12 ">
           <div class="footer-thumb">
             <div class="shareButton">
-              <a class="github-button" href="https://github.com/BolajiAyodeji/netty-finder " data-icon="octicon-star "
-                data-size="large " data-show-count="true"
-                aria-label="Star BolajiAyodeji/netty-finder on GitHub ">Star</a>
-
               <a href="https://twitter.com/intent/tweet?&ref_src=twsrc%5Etfw" class="twitter-mention-button"
                 data-size="large"
                 data-text="I just tried out #NettyFinder and it got the network of my 🇳🇬 telephone number correctly. Check it out!! cc: @iambolajiayo"
                 data-show-count="false">Tweet to @iambolajiayo</a>
               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-              <iframe
-                src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fnetty-finder.netlify.com/&layout=button&size=large&mobile_iframe=true&appId=1638690196224226&width=73&height=28"
-                width="73" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-                allowTransparency="true" allow="encrypted-media"></iframe>
+              <div class="fb-share-button" data-href="https://netty-finder.netlify.com" data-layout="button_count"
+                data-size="large"><a target="_blank"
+                  href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnetty-finder.netlify.com%2F&amp;src=sdkpreparse"
+                  class="fb-xfbml-parse-ignore">Share</a></div>
             </div>
           </div>
         </div>
@@ -141,11 +142,10 @@
               </p>
             </h4>
 
-            <p>&copy; 2019 -
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
+            <p>&copy; 2019 - <span id="copy_year"></span>
             </p>
+            <a class="github-button" href="https://github.com/BolajiAyodeji/netty-finder " data-icon="octicon-star "
+              data-size="large " data-show-count="true" aria-label="Star BolajiAyodeji/netty-finder on GitHub ">Star</a>
           </div>
         </div>
 

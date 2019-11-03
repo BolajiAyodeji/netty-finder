@@ -28,6 +28,10 @@ var compute = function compute(ev) {
   }
 };
 
+var c = document.getElementById('copy_year');
+var cd = new Date().getFullYear();
+c.innerHTML = cd;
+
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
     navigator.serviceWorker.register('../sw.js').then(function () {

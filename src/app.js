@@ -26,6 +26,11 @@ const compute = function (ev) {
   }
 }
 
+
+let c = document.getElementById('copy_year');
+let cd = new Date().getFullYear();
+c.innerHTML = cd;
+
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function () {
     navigator.serviceWorker.register('../sw.js')
