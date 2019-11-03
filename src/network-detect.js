@@ -90,7 +90,7 @@ NetworkDetect.prototype = {
 
     //Check if phone number contains unwanted characters
     if (this.phone.match(/[^0-9]/)) {
-      throw new Error('Phone number contains unwanted characters')
+      throw new Error('Number contains unwanted characters')
     }
 
     if (this.phone.length < 11) {
