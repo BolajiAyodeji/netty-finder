@@ -10,7 +10,7 @@ Checks a Nigerian telephone number and detects which network it belongs to
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat)](http://makeapullrequest.com)
 [![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
 [![Open Source Helpers](https://www.codetriage.com/bolajiayodeji/netty-finder/badges/users.svg)](https://www.codetriage.com/bolajiayodeji/netty-finder)
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
 
 </div>
 
@@ -51,6 +51,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/wasconet"><img src="https://avatars2.githubusercontent.com/u/4201367?v=4" width="100px;" alt="Wilson"/><br /><sub><b>Wilson</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/issues?q=author%3Awasconet" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://samtechpro.netlify.com"><img src="https://avatars1.githubusercontent.com/u/22575481?v=4" width="100px;" alt="Umoren Samuel"/><br /><sub><b>Umoren Samuel</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Umoren" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/fakela"><img src="https://avatars2.githubusercontent.com/u/39309699?v=4" width="100px;" alt="Favour Kelvin"/><br /><sub><b>Favour Kelvin</b></sub></a><br /><a href="#ideas-fakela" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Ifunanyacollins"><img src="https://avatars1.githubusercontent.com/u/31220512?v=4" width="100px;" alt="Collins ogbuzuru"/><br /><sub><b>Collins ogbuzuru</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Ifunanyacollins" title="Code">💻</a></td>
   </tr>
 </table>
 
