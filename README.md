@@ -10,7 +10,7 @@ Checks a Nigerian telephone number and detects which network it belongs to
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat)](http://makeapullrequest.com)
 [![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
 [![Open Source Helpers](https://www.codetriage.com/bolajiayodeji/netty-finder/badges/users.svg)](https://www.codetriage.com/bolajiayodeji/netty-finder)
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 
 </div>
 
@@ -48,6 +48,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://citguru.github.io"><img src="https://avatars2.githubusercontent.com/u/16475846?v=4" width="100px;" alt="Oyetoke Toby"/><br /><sub><b>Oyetoke Toby</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=CITGuru" title="Code">💻</a></td>
     <td align="center"><a href="https://devhammed.github.io"><img src="https://avatars3.githubusercontent.com/u/22827908?v=4" width="100px;" alt="Hammed Oyedele"/><br /><sub><b>Hammed Oyedele</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=devhammed" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/dammynex"><img src="https://avatars0.githubusercontent.com/u/30000286?v=4" width="100px;" alt="Oluwadamilola Ezekiel"/><br /><sub><b>Oluwadamilola Ezekiel</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=dammynex" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/wasconet"><img src="https://avatars2.githubusercontent.com/u/4201367?v=4" width="100px;" alt="Wilson"/><br /><sub><b>Wilson</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/issues?q=author%3Awasconet" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

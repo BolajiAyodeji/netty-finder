@@ -40,6 +40,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "wasconet",
+      "name": "Wilson",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4201367?v=4",
+      "profile": "https://github.com/wasconet",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
