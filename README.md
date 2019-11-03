@@ -46,7 +46,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://bolajiayodeji.com"><img src="https://avatars2.githubusercontent.com/u/30334776?v=4" width="100px;" alt="Bolaji Ayodeji"/><br /><sub><b>Bolaji Ayodeji</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=BolajiAyodeji" title="Code">💻</a></td>
     <td align="center"><a href="http://citguru.github.io"><img src="https://avatars2.githubusercontent.com/u/16475846?v=4" width="100px;" alt="Oyetoke Toby"/><br /><sub><b>Oyetoke Toby</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=CITGuru" title="Code">💻</a></td>
-    <td align="center"><a href="https://devhammed.github.io"><img src="https://avatars3.githubusercontent.com/u/22827908?v=4" width="100px;" alt="Hammed Oyedele"/><br /><sub><b>Hammed Oyedele</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=devhammed" title="Code">💻</a></td>
+    <td align="center"><a href="https://devhammed.github.io"><img src="https://avatars3.githubusercontent.com/u/22827908?v=4" width="100px;" alt="Hammed Oyedele"/><br /><sub><b>Hammed Oyedele</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=devhammed" title="Code">💻</a> <a href="https://github.com/BolajiAyodeji/netty-finder/issues?q=author%3Adevhammed" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
