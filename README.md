@@ -1,4 +1,8 @@
-# Netty-Finder
+<div align="center">
+  
+![](https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true)
+
+</div>
 
 This script checks a Nigerian Telephone number and detects which network it belongs to
 
@@ -32,9 +36,3 @@ This project is open source and available under the [MIT License](https://github
 # Author
 
 Bolaji Ayodeji
-
-<div align="center">
-  
-![](https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true)
-
-</div>
