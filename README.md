@@ -1,6 +1,6 @@
 <div align="center">
   <p align="center">
-  <img src="https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true" width="100" alt="Netty-Finder">
+  <img src="https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true" width="200" alt="Netty-Finder">
 </p>
 </div>
 
