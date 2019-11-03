@@ -18,12 +18,12 @@ var compute = function compute(ev) {
 
     return new Toast({
       message: "".concat(phone, " belongs to the ").concat(network, " network \uD83D\uDC9A"),
-      type: 'success'
+      type: "".concat(network)
     });
   } catch (e) {
     return new Toast({
       message: e.message,
-      type: 'danger'
+      type: 'error'
     });
   }
 };

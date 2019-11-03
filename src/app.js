@@ -16,12 +16,12 @@ const compute = function(ev) {
     form.telephone.value = ''; // clear input field
     return new Toast({
       message: `${phone} belongs to the ${network} network 💚`,
-      type: 'success'
+      type: `${network}`
     })
   } catch (e) {
     return new Toast({
       message: e.message,
-      type: 'danger'
+      type: 'error'
     })
   }
 }

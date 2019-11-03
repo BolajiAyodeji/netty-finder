@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('./bootstrap.min.css');
-@import url('./Toast.min.css');
+@import url('./Toast.css');
 
 ::-webkit-scrollbar {
 	width: 6px;
