@@ -9,8 +9,6 @@ This script checks a Nigerian Telephone number and detects which network it belo
 [![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
 [![Open Source Helpers](https://www.codetriage.com/bolajiayodeji/netty-finder/badges/users.svg)](https://www.codetriage.com/bolajiayodeji/netty-finder)
 
-![](https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true)
-
 </div>
 
 Other versions of this project created by some amazing Contributors 💙💙.
@@ -34,3 +32,9 @@ This project is open source and available under the [MIT License](https://github
 # Author
 
 Bolaji Ayodeji
+
+<div align="center">
+  
+![](https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true)
+
+</div>
