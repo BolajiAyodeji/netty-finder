@@ -10,7 +10,7 @@ Checks a Nigerian telephone number and detects which network it belongs to
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat)](http://makeapullrequest.com)
 [![Made in Nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=flat-square)](https://github.com/acekyd/made-in-nigeria)
 [![Open Source Helpers](https://www.codetriage.com/bolajiayodeji/netty-finder/badges/users.svg)](https://www.codetriage.com/bolajiayodeji/netty-finder)
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 
 </div>
 
@@ -55,6 +55,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Ifunanyacollins"><img src="https://avatars1.githubusercontent.com/u/31220512?v=4" width="100px;" alt="Collins ogbuzuru"/><br /><sub><b>Collins ogbuzuru</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Ifunanyacollins" title="Code">💻</a></td>
     <td align="center"><a href="https://chiziaruhoma.me/"><img src="https://avatars2.githubusercontent.com/u/25801929?v=4" width="100px;" alt="Ogbonda Chiziaruhoma"/><br /><sub><b>Ogbonda Chiziaruhoma</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Zfinix" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/narthkings"><img src="https://avatars0.githubusercontent.com/u/25045543?v=4" width="100px;" alt="dumto imoh"/><br /><sub><b>dumto imoh</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/issues?q=author%3Anarthkings" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
