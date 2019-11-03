@@ -17,6 +17,7 @@
 
 body {
   margin: 0;
+  overflow-x: hidden !important;
   font-family: 'Space Mono', monospace;
 }
 
@@ -117,6 +118,8 @@ header h1 {
 }
 .gif {
   padding-top: 30px;
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
