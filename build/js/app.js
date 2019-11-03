@@ -11,7 +11,7 @@ var compute = function compute(ev) {
 
     if (!network) {
       return new Toast({
-        message: "".concat(phone, " belongs to no +234 network, check the number and TRY AGAIN!!"),
+        message: "".concat(phone, " belongs to no +234 network, check the number and TRY AGAIN!"),
         type: 'error'
       });
     }
@@ -19,7 +19,7 @@ var compute = function compute(ev) {
     form.telephone.value = ''; // clear input field
 
     return new Toast({
-      message: "".concat(phone, " belongs to the ").concat(network, " network \uD83D\uDC9A"),
+      message: "".concat(phone, " belongs to the ").concat(network, " network"),
       type: "".concat(network)
     });
   } catch (e) {
@@ -43,5 +43,5 @@ if ('serviceWorker' in navigator) {
 }
 
 console.log("%cNettyFinder!!!", "font-weight: bold; font-size: 50px; color: green; text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;");
-console.log("Developed by Bolaji Ayodeji");
+console.log("Developed by https://bolajiayodeji.com");
 //# sourceMappingURL=app.js.map

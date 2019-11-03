@@ -1,3 +1,5 @@
+// Initial library from Ire's Toast library (https://github.com/ireade/Toast.js)
+
 'use strict';
 
 function Toast(options) {

@@ -10,14 +10,14 @@ const compute = function (ev) {
 
     if (!network) {
       return new Toast({
-        message: `${phone} belongs to no +234 network, check the number and TRY AGAIN!!`,
+        message: `${phone} belongs to no +234 network, check the number and TRY AGAIN!`,
         type: 'error'
       })
     }
 
     form.telephone.value = ''; // clear input field
     return new Toast({
-      message: `${phone} belongs to the ${network} network 💚`,
+      message: `${phone} belongs to the ${network} network`,
       type: `${network}`
     })
   } catch (e) {
@@ -43,4 +43,4 @@ if ('serviceWorker' in navigator) {
 }
 
 console.log("%cNettyFinder!!!", "font-weight: bold; font-size: 50px; color: green; text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;");
-console.log("Developed by Bolaji Ayodeji");
+console.log("Developed by https://bolajiayodeji.com");
