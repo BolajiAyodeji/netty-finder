@@ -4,13 +4,15 @@ const compute = function (ev) {
   let form = ev.target;
   let phone = form.telephone.value.replace(/\s/g, "");
   let detector = new NetworkDetect(phone);
-  let result = form.nettyResult;
 
   try {
     let network = detector.getNetworkName();
 
     if (!network) {
-      return result.value = "Network not found, check the number and TRY AGAIN!!";
+      return new Toast({
+        message: `${phone} belongs to no +234 network, check the number and TRY AGAIN!!`,
+        type: 'error'
+      })
     }
 
     form.telephone.value = ''; // clear input field

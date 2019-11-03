@@ -5,13 +5,15 @@ var compute = function compute(ev) {
   var form = ev.target;
   var phone = form.telephone.value.replace(/\s/g, "");
   var detector = new NetworkDetect(phone);
-  var result = form.nettyResult;
 
   try {
     var network = detector.getNetworkName();
 
     if (!network) {
-      return result.value = "Network not found, check the number and TRY AGAIN!!";
+      return new Toast({
+        message: "".concat(phone, " belongs to no +234 network, check the number and TRY AGAIN!!"),
+        type: 'error'
+      });
     }
 
     form.telephone.value = ''; // clear input field
