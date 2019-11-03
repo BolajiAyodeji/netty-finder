@@ -67,6 +67,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "Ifunanyacollins",
+      "name": "Collins ogbuzuru",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/31220512?v=4",
+      "profile": "https://github.com/Ifunanyacollins",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
