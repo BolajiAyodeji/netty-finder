@@ -63,7 +63,7 @@ Toast.prototype._close = function () {
         setTimeout(function () {
 
             _this3.toastEl.innerHTML = '';
-            _this3.toastEl.classList.remove('default', 'error', '9mobile', 'MTN', 'Glo', 'Airtel', 'Starcomms', 'Visafone', 'Multilinks', 'Zoom', 'Ntel', 'Smile');
+            _this3.toastEl.classList.remove('default', 'error', '9mobile', 'MTN', 'GLO', 'Airtel', 'Starcomms', 'Visafone', 'Multilinks', 'Zoom', 'Ntel', 'Smile');
 
             if (_this3.focusedElBeforeOpen) {
                 _this3.focusedElBeforeOpen.focus();

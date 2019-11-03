@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 @import url('./bootstrap.min.css');
 @import url('./Toast.css');
 
@@ -17,7 +17,7 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Space Mono', monospace;
 }
 
 * {
@@ -27,7 +27,6 @@ body {
   outline: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent;
 }
 
 h2,
@@ -57,21 +56,13 @@ h1 {
 }
 
 header h1 {
-  color: white;
+  font-weight: bold;
+  color: #fff;
 }
 
 .container {
   margin: 0;
   width: 100%;
-}
-
-.btn-primary {
-  background-color: #025f18;
-  color: #fff;
-}
-
-.btn-primary:hover {
-  background-color: #ffc107;
 }
 
 .form-group {
@@ -92,47 +83,34 @@ header h1 {
   border: 0;
 }
 
-#userInput .form-control {
-  border: 0;
-  border-radius: 8px;
-  box-shadow: none;
-  color: #000;
-  box-shadow: inset 0 0 0 2px #000;
-  font-size: 15px;
-  font-weight: normal;
-  margin-bottom: 25px;
-  padding-left: 10px;
+#userInput .spaced {
+  margin: 25px 0 25px !important;
 }
 
-#userInput .form-control:focus {
-  box-shadow: 0 0 0 3px #000;
-}
-
-#userInput input,
-#userInput select {
+#userInput input {
   height: 60px;
-}
-
-#userInput select {
-  color: rgba(20, 20, 20, 0.5);
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 1.5px #000;
+  border: none;
+  outline: none;
 }
 
 #userInput .submit-btn {
-    background: transparent;
-    box-shadow: inset 0 0 0 2px #000;
-    border-radius: 15px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    color: #000;
-    font-weight: 500;
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #000;
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: 15px 0 15px 0;
+  color: #000;
+  font-weight: 500;
 }
 
 #userInput .submit-btn:hover {
-    box-shadow: inset 0 0 0 2px #000;
-    background:#68d08e;
-    color: #000;
+  box-shadow: inset 0 0 0 2px #000;
+  background:#68d08e;
+  color: #000;
 }
-
 .gif {
   padding-top: 30px;
 }
@@ -181,40 +159,4 @@ footer span,
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   margin-top: 5em;
   padding-top: 3em;
-}
-
-.footer-bottom .phone-contact,
-.footer-bottom .social-icon {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.footer-bottom .phone-contact span {
-  font-weight: 500;
-  display: inline-block;
-  margin-left: 10px;
-}
-
-.social-icon {
-  position: relative;
-  padding: 0;
-  margin: 0;
-}
-
-.social-icon li {
-  display: inline-block;
-  list-style: none;
-}
-
-.social-icon li a {
-  border-radius: 100px;
-  color: #d9d9d9;
-  font-size: 15px;
-  text-decoration: none;
-  position: relative;
-  margin: 5px 10px;
-}
-
-.social-icon li a:hover {
-  color: #2dce89;
 }
