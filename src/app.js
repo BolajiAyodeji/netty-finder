@@ -40,5 +40,5 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-console.log("%cNetty-Finder!!!", "font-weight: bold; font-size: 50px; color: green; text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;");
+console.log("%cNettyFinder!!!", "font-weight: bold; font-size: 50px; color: green; text-shadow: 1px 1px 0px black, 1px -1px 0px black, -1px 1px 0px black, -1px -1px 0px black;");
 console.log("Developed by Bolaji Ayodeji");
