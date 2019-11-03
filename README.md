@@ -1,5 +1,5 @@
 <div align="center">
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
   <p align="center">
   <img src="https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true" width="200" alt="Netty-Finder">
 </p>
@@ -47,6 +47,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://bolajiayodeji.com"><img src="https://avatars2.githubusercontent.com/u/30334776?v=4" width="100px;" alt="Bolaji Ayodeji"/><br /><sub><b>Bolaji Ayodeji</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=BolajiAyodeji" title="Code">💻</a></td>
+    <td align="center"><a href="http://citguru.github.io"><img src="https://avatars2.githubusercontent.com/u/16475846?v=4" width="100px;" alt="Oyetoke Toby"/><br /><sub><b>Oyetoke Toby</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=CITGuru" title="Code">💻</a></td>
   </tr>
 </table>
 
