@@ -1,7 +1,7 @@
 <div align="center">
-  
-![](https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true)
-
+  <p align="center">
+  <img src="https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true" width="100" alt="Netty-Finder">
+</p>
 </div>
 
 Checks a Nigerian telephone number and detects which network it belongs to
