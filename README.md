@@ -4,7 +4,7 @@
 
 </div>
 
-This script checks a Nigerian Telephone number and detects which network it belongs to
+Checks a Nigerian telephone number and detects which network it belongs to
 
 <div align="center>
 
