@@ -58,6 +58,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "fakela",
+      "name": "Favour Kelvin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/39309699?v=4",
+      "profile": "https://github.com/fakela",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
