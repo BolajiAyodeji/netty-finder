@@ -88,24 +88,25 @@ NetworkDetect.prototype = {
       throw new Error('Invalid entry, enter a telephone number')
     }
 
-    //Check if phone number contains unwanted characters
+    //Check if number contains unwanted characters
     if (this.phone.match(/[^0-9]/)) {
       throw new Error('Number contains unwanted characters')
     }
 
+    //Check if number is lesser than 11
     if (this.phone.length < 11) {
       throw new Error(
         'Number must not be lesser than 11 digits'
       )
     }
 
+    //Check if number is greater than 11
     if (this.phone.length > 11) {
       throw new Error(
         'Number must not be greater than 11 digits'
       )
     }
 
-
     return true
-  },
+  }
 }
