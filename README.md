@@ -1,10 +1,5 @@
 <div align="center">
   <img src="https://github.com/BolajiAyodeji/netty-finder/blob/master/build/img/NettyFinder.png?raw=true" width="200" alt="Netty-Finder">
-</div>
-
-Checks a Nigerian telephone number and detects which network it belongs to
-
-<div align="center>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/86933b71-e9fe-4d90-9100-470860e5379d/deploy-status)](https://app.netlify.com/sites/netty-finder/deploys)
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-red.svg?style=flat)](http://makeapullrequest.com)
@@ -13,6 +8,8 @@ Checks a Nigerian telephone number and detects which network it belongs to
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors)
 
 </div>
+
+Checks a Nigerian telephone number and detects which network it belongs to
 
 Other versions of this project created by some amazing Contributors 💙💙.
 
