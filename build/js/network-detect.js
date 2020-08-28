@@ -78,9 +78,7 @@ NetworkDetect.prototype = {
     } //Check if number contains unwanted characters
 
 
-    if (this.phone[0] === '+' && this.phone.slice(1, this.phone.length).match(/[^0-9]/)) {
-      throw new Error('Number contains unwanted characters');
-    } else if (this.phone[0] !== '+' && this.phone.match(/[^0-9]/)) {
+    if (this.phone.slice(0, 4) !== '+234' && this.phone.match(/[^0-9]/)) {
       throw new Error('Number contains unwanted characters');
     } //Check if number is lesser than 11
 
@@ -90,21 +88,21 @@ NetworkDetect.prototype = {
     } //Check if number without +234 is greater than 11
 
 
-    if (this.phone.length > 11 && this.phone[0] !== '+') {
+    if (this.phone.length > 11 && this.phone.slice(0, 4) !== '+234') {
       throw new Error('Number without +234 must not be greater than 11 digits');
     } // Check if +234 number is less than 14 characters
 
 
-    if (this.phone.length < 14 && this.phone[0] === '+') {
+    if (this.phone.length < 14 && this.phone.slice(0, 4) === '+234') {
       throw new Error('Number with +234 must be 14 characters long');
     } //Check if number with +234 is greater than 14 characters
 
 
-    if (this.phone.length > 14 && this.phone[0] === '+') {
+    if (this.phone.length > 14 && this.phone.slice(0, 4) === '+234') {
       throw new Error('Number with +234 must not be greater than 14 characters');
     }
 
-    if (this.phone[0] === '+') {
+    if (this.phone.slice(0, 4) === '+234') {
       this.phone = "0".concat(this.phone.slice(4, this.phone.length));
     }
 
