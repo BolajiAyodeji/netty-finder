@@ -12,11 +12,11 @@ var compute = function compute(ev) {
     if (!network) {
       return new Toast({
         message: "".concat(phone, " belongs to no +234 network, check the number and TRY AGAIN!"),
-        type: 'error'
+        type: "error"
       });
     }
 
-    form.telephone.value = ''; // clear input field
+    form.telephone.value = ""; // clear input field
 
     return new Toast({
       message: "".concat(phone, " belongs to the ").concat(network, " network"),
@@ -25,18 +25,18 @@ var compute = function compute(ev) {
   } catch (e) {
     return new Toast({
       message: e.message,
-      type: 'error'
+      type: "error"
     });
   }
 };
 
-var c = document.getElementById('copy_year');
+var c = document.getElementById("copy_year");
 var cd = new Date().getFullYear();
 c.innerHTML = cd;
 
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function () {
-    navigator.serviceWorker.register('./sw.js').then(function () {
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("./sw.js").then(function () {
       console.log("Service Worker Registered!");
     });
   });
