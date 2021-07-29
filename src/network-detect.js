@@ -89,22 +89,40 @@ NetworkDetect.prototype = {
     }
 
     //Check if number contains unwanted characters
-    if (this.phone.match(/[^0-9]/)) {
+    if (this.phone.slice(0, 4) !== '+234' && this.phone.match(/[^0-9]/)) {
       throw new Error('Number contains unwanted characters')
     }
 
     //Check if number is lesser than 11
     if (this.phone.length < 11) {
       throw new Error(
-        'Number must not be lesser than 11 digits'
+        'Number must not be less than 11 digits'
       )
     }
 
-    //Check if number is greater than 11
-    if (this.phone.length > 11) {
+    //Check if number without +234 is greater than 11
+    if (this.phone.length > 11 && this.phone.slice(0, 4) !== '+234') {
       throw new Error(
-        'Number must not be greater than 11 digits'
+        'Number without +234 must not be greater than 11 digits'
       )
+    }    
+
+    // Check if +234 number is less than 14 characters
+    if (this.phone.length < 14 && this.phone.slice(0, 4) === '+234') {
+      throw new Error(
+        'Number with +234 must be 14 characters long'
+      )
+    }
+
+    //Check if number with +234 is greater than 14 characters
+    if (this.phone.length > 14 && this.phone.slice(0, 4) === '+234') {
+      throw new Error(
+        'Number with +234 must not be greater than 14 characters'
+      )
+    }
+
+    if (this.phone.slice(0, 4) === '+234'){
+      this.phone = `0${this.phone.slice(4, this.phone.length)}`
     }
 
     return true
