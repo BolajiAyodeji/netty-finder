@@ -94,11 +94,21 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "vicradon",
+      "name": "Osinachi Chukwujama ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40396070?v=4",
+      "profile": "http://osinachi.me",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "netty-finder",
   "projectOwner": "BolajiAyodeji",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }

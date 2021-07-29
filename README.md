@@ -38,23 +38,28 @@ Bolaji Ayodeji
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://bolajiayodeji.com"><img src="https://avatars2.githubusercontent.com/u/30334776?v=4" width="100px;" alt="Bolaji Ayodeji"/><br /><sub><b>Bolaji Ayodeji</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=BolajiAyodeji" title="Code">💻</a></td>
-    <td align="center"><a href="http://citguru.github.io"><img src="https://avatars2.githubusercontent.com/u/16475846?v=4" width="100px;" alt="Oyetoke Toby"/><br /><sub><b>Oyetoke Toby</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=CITGuru" title="Code">💻</a></td>
-    <td align="center"><a href="https://devhammed.github.io"><img src="https://avatars3.githubusercontent.com/u/22827908?v=4" width="100px;" alt="Hammed Oyedele"/><br /><sub><b>Hammed Oyedele</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=devhammed" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/dammynex"><img src="https://avatars0.githubusercontent.com/u/30000286?v=4" width="100px;" alt="Oluwadamilola Ezekiel"/><br /><sub><b>Oluwadamilola Ezekiel</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=dammynex" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/wasconet"><img src="https://avatars2.githubusercontent.com/u/4201367?v=4" width="100px;" alt="Wilson"/><br /><sub><b>Wilson</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/issues?q=author%3Awasconet" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://samtechpro.netlify.com"><img src="https://avatars1.githubusercontent.com/u/22575481?v=4" width="100px;" alt="Umoren Samuel"/><br /><sub><b>Umoren Samuel</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Umoren" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/fakela"><img src="https://avatars2.githubusercontent.com/u/39309699?v=4" width="100px;" alt="Favour Kelvin"/><br /><sub><b>Favour Kelvin</b></sub></a><br /><a href="#ideas-fakela" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://bolajiayodeji.com"><img src="https://avatars2.githubusercontent.com/u/30334776?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bolaji Ayodeji</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=BolajiAyodeji" title="Code">💻</a></td>
+    <td align="center"><a href="http://citguru.github.io"><img src="https://avatars2.githubusercontent.com/u/16475846?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oyetoke Toby</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=CITGuru" title="Code">💻</a></td>
+    <td align="center"><a href="https://devhammed.github.io"><img src="https://avatars3.githubusercontent.com/u/22827908?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hammed Oyedele</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=devhammed" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/dammynex"><img src="https://avatars0.githubusercontent.com/u/30000286?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Oluwadamilola Ezekiel</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=dammynex" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/wasconet"><img src="https://avatars2.githubusercontent.com/u/4201367?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wilson</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/issues?q=author%3Awasconet" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://samtechpro.netlify.com"><img src="https://avatars1.githubusercontent.com/u/22575481?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Umoren Samuel</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Umoren" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/fakela"><img src="https://avatars2.githubusercontent.com/u/39309699?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Favour Kelvin</b></sub></a><br /><a href="#ideas-fakela" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/Ifunanyacollins"><img src="https://avatars1.githubusercontent.com/u/31220512?v=4" width="100px;" alt="Collins ogbuzuru"/><br /><sub><b>Collins ogbuzuru</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Ifunanyacollins" title="Code">💻</a></td>
-    <td align="center"><a href="https://chiziaruhoma.me/"><img src="https://avatars2.githubusercontent.com/u/25801929?v=4" width="100px;" alt="Ogbonda Chiziaruhoma"/><br /><sub><b>Ogbonda Chiziaruhoma</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Zfinix" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/narthkings"><img src="https://avatars0.githubusercontent.com/u/25045543?v=4" width="100px;" alt="dumto imoh"/><br /><sub><b>dumto imoh</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/issues?q=author%3Anarthkings" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/Ifunanyacollins"><img src="https://avatars1.githubusercontent.com/u/31220512?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Collins ogbuzuru</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Ifunanyacollins" title="Code">💻</a></td>
+    <td align="center"><a href="https://chiziaruhoma.me/"><img src="https://avatars2.githubusercontent.com/u/25801929?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ogbonda Chiziaruhoma</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=Zfinix" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/narthkings"><img src="https://avatars0.githubusercontent.com/u/25045543?v=4?s=100" width="100px;" alt=""/><br /><sub><b>dumto imoh</b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/issues?q=author%3Anarthkings" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://osinachi.me"><img src="https://avatars.githubusercontent.com/u/40396070?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Osinachi Chukwujama </b></sub></a><br /><a href="https://github.com/BolajiAyodeji/netty-finder/commits?author=vicradon" title="Code">💻</a></td>
   </tr>
 </table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
